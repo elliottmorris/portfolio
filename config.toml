@@ -1,0 +1,11 @@
+theme = "pristine"
+
+baseURL = "https://gelliottmorris.com/"
+languageCode = "en-us"
+title = "G. Elliott Morris"
+canonifyURLs = true
+enableEmoji = true
+googleAnalytics = "UA-XXXXXX-1"
+
+[params]
+    portrait = "images/elliott.png"
