@@ -147,7 +147,7 @@ h3 {
 }
 
 #nav img.logo {
-    width: 65px;
+    width: 100px;
     margin-bottom: 10px;
 }
 
@@ -155,7 +155,7 @@ h3 {
 @media only screen and (max-width: 800px){
     #sidebar {
         left: 0;
-        width: 190px;
+        width: 200px;
         padding: 20px 12px 0 0;
     }
 
@@ -166,7 +166,7 @@ h3 {
 }
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 800px){
     #nav {
         display: initial;
     }
@@ -205,7 +205,7 @@ a.changelog:hover {
 
 
 img.logo {
-    width: 113px;
+    width: 200px;
 }
 
 *:focus {

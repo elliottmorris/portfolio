@@ -1,4 +1,5 @@
 <div id="sidebar">
+  <h1 class="animated flipInX">{{ .Site.Title }}</h1>
   {{ if $.Site.Params.portrait }}
   <a href="{{ $.Site.Params.portrait | absURL }}" class="image-link">
     <img class="logo animated flipInY" src="{{ $.Site.Params.portrait | absURL }}"/>
@@ -12,6 +13,7 @@
     {{end}}
   </ul>
 
+  <!--
   <h2>Recent posts</h2>
   <ul>
     {{ range first 10 .Site.RegularPages }}
@@ -27,4 +29,5 @@
       <li><a href="{{.URL}}" target="_blank">{{ .Name }}</li>
     {{end}}
   </ul>
+-->
 </div>

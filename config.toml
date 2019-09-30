@@ -1,33 +1,32 @@
-baseurl = "https://www.gelliottmorris.com/"
+baseURL = "https://www.gelliottmorris.com/"
 languageCode = "en-us"
 title = "G. Elliott Morris"
-subtitle = "My personal website"
-author = "G. Elliott Morris"
-description = ""
 canonifyURLs = true
 enableEmoji = true
-googleAnalytics = "UA-76096508-1" # delete this to disable google analytics
-rssLimit = 10
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+googleAnalytics = "UA-XXXXXX-1"
+
 theme = "pristine"
 
 [params]
     portrait = "img/elliott.png"
 
 [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Blog"
+  url = "https://www.thecrosstab.com"
+  weight = 2
+
 
 [[params.social]]
     title = "Email"
-    url = "mailto:john@doe.com"
+    url = "mailto:elliott@thecrosstab.com"
 [[params.social]]
-    title = "Follow @johndoe"
-    url = "https://twitter.com/johndoe"
+    title = "Follow @gelliottmorris"
+    url = "https://twitter.com/gelliottmorris"
 [[params.social]]
     title = "Github"
-    url = "https://github.com/johndoe"
-[[params.social]]
-    title = "Facebook"
-    url = "https://facebook.com/johndoe"
+    url = "https://github.com/elliottmorris"
