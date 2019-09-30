@@ -14,6 +14,12 @@ theme = "pristine"
 [params]
     portrait = "img/elliott.png"
 
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+
 ---
 languageCode = "en-us"
 
