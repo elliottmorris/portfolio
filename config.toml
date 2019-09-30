@@ -1,11 +1,62 @@
-theme = "pristine"
-
-baseURL = "https://gelliottmorris.com/"
+baseurl = "https://www.gelliottmorris.com/"
 languageCode = "en-us"
 title = "G. Elliott Morris"
-canonifyURLs = true
-enableEmoji = true
-googleAnalytics = "UA-XXXXXX-1"
+subtitle = "Personal website"
+author = "G. Elliott Morris"
+description = "The Crosstab is my personal blog about data journalism, especially applying statistical analysis to politics, and my other work."
+theme = "pristine"
+googleAnalytics = "UA-76096508-1" # delete this to disable google analytics
+rssLimit = 10
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+paginate = 20
+relativeurls = true
+
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    writing = "/:year/:month/:day/:slug/"
+    page = "/:slug/"
+    project = "/project/:slug/"
+
+[[menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 1
+    
+[[menu.main]]
+    url = "/writing/"
+    name = "Writing"
+    weight = 2
+    
+[[menu.main]]
+    url = "/post/"
+    name = "Blog"
+    weight = 3
+
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 4
+
+[[menu.main]]
+    url = "/newsletter-signup/"
+    name = "Newsletter"
+    weight = 5
+    
+#[[menu.main]]
+#    url = "/resources/"
+#    name = "Resources"
+#    weight = 6
+
 
 [params]
-    portrait = "images/elliott.png"
+    footer = "&copy; [G. Elliott Morris](/) 2016 -- 2019 | [Twitter](https://twitter.com/gelliottmorris) | [Github](https://github.com/elliottmorris) "
+    logo = "logo_vc/header_author.png"
+    githubUsername = "elliottmorris"
+    highlight = true
+    highlightStyle = "solarized-light"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    
+    
