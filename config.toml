@@ -1,13 +1,26 @@
 baseurl = "https://www.gelliottmorris.com/"
 languageCode = "en-us"
 title = "G. Elliott Morris"
-subtitle = "Personal website"
+subtitle = "My personal website"
 author = "G. Elliott Morris"
-description = "The Crosstab is my personal blog about data journalism, especially applying statistical analysis to politics, and my other work."
-theme = "pristine"
+description = ""
+canonifyURLs = true
+enableEmoji = true
 googleAnalytics = "UA-76096508-1" # delete this to disable google analytics
 rssLimit = 10
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+theme = "pristine"
+
+[params]
+    portrait = "img/elliott.png"
+
+---
+languageCode = "en-us"
+
+
+
+
+
 preserveTaxonomyNames = true
 footnotereturnlinkcontents = "↩"
 paginate = 20
