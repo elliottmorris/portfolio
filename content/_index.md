@@ -1,22 +1,21 @@
 ---
-title: "Work in progress"
+title: " "
 date: 2018-06-06T03:00:53+06:00
 draft: false
 ---
 
-:warning: :warning: :warning: :warning:  This website is a work in progress. :warning: :warning: :warning: :warning:
-
-<br>
 
 ## About me
 
 <hr>
 
-I am a data journalist for _The Economist_ based in Washington, DC. [Proof.](https://mediadirectory.economist.com/people/g-elliott-morris-2/)
+**I am a data journalist** for _The Economist_ based in Washington, DC. [Proof.](https://mediadirectory.economist.com/people/g-elliott-morris-2/)
+
+<br>
 
 This is a single-page site for listing all of my work in one places. Some details are omitted for simplicity's sake. Go to my blog, [thecrosstab.com](https://www.thecrosstab.com), for more information and regular updates.
 
-I also post a lot on Twitter [@gelliottmorris](https://www.twitter.com/gelliottmorris).
+I also post a lot on Twitter: <a href="https://twitter.com/gelliottmorris?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @gelliottmorris</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I circulate a weekly email to people who want to know more about politics using data. You can read it at [thecrosstab.substack.com](https://thecrosstab.substack.com) or sign up below!
 

@@ -1,5 +1,13 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
+body{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    max-width: 800px;
+    font-family: 'Roboto Slab', serif;
+}
+
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -153,6 +161,10 @@ h3 {
 
 
 @media only screen and (max-width: 800px){
+    .talkies {
+        padding-top: 20px;
+    }
+    
     #sidebar {
         left: 0;
         width: 200px;
