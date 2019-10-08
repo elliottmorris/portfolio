@@ -10,7 +10,7 @@ draft: false
 
 **[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** for _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data.
 
-This is a simple single-page site for listing all of my work in one places. Some details are omitted for simplicity's sake. Go to my blog, [thecrosstab.com](https://www.thecrosstab.com), for more information and regular updates.
+This is a simple site for listing all of my work in one places. Some details are omitted for simplicity's sake. Go to my blog, [thecrosstab.com](https://www.thecrosstab.com), for more information and regular updates.
 
 I also post a lot on Twitter: <a href="https://twitter.com/gelliottmorris?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @gelliottmorris</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -22,7 +22,7 @@ I circulate a weekly email to people who want to know more about politics using 
 
 <br>
 
-## Projects
+## Work
 
 ---
 

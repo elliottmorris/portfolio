@@ -1,6 +1,6 @@
 {{ partialCached "header/head.html" . }}
 
-<div class="container">
+<div class="container" id="container">
   <div class="row"> 
 
     <div id="sidebar" class="col-sm-4">
@@ -13,14 +13,13 @@
       <div class="talkies">
           {{ .Content }}
       </div>
-
-      {{ if isset .Site.Params "social" }}
-          {{ partialCached "social.html" . }}
-      {{ end }}
-
+      
+      <br>
       {{ partialCached "footer/foot.html" . }}
+
     </div>
   </div>
+ 
   
 </div>
 

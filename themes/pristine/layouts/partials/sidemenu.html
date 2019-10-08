@@ -6,28 +6,10 @@
   </a>
   {{ end }}
 
-  <h2>URLs</h2>
-  <ul>
-    {{ range .Site.Menus.main }}
-      <li><a href="{{.URL}}">{{ .Name }}</a></li>
-    {{end}}
-  </ul>
+  <br>
 
-  <!--
-  <h2>Recent posts</h2>
-  <ul>
-    {{ range first 10 .Site.RegularPages }}
-      {{ if eq .Type "posts" }}
-        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-      {{ end }}
-    {{ end }}
-  </ul>
+  {{ if isset .Site.Params "social" }}
+  {{ partialCached "social.html" . }}
+  {{ end }}
 
-  <h2>Projects</h2>
-  <ul>
-    {{ range .Site.Menus.projects }}
-      <li><a href="{{.URL}}" target="_blank">{{ .Name }}</li>
-    {{end}}
-  </ul>
--->
 </div>

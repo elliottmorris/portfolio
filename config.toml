@@ -10,23 +10,21 @@ theme = "pristine"
 [params]
     portrait = "img/elliott.png"
 
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
-
-[[menu.main]]
-  name = "Blog"
-  url = "https://www.thecrosstab.com"
-  weight = 2
-
-
 [[params.social]]
-    title = "Email"
+    title = ""
+    icon = "fa fa-envelope"
     url = "mailto:elliott@thecrosstab.com"
 [[params.social]]
-    title = "Follow @gelliottmorris"
+    title = ""
+    icon = "fa fa-twitter"
     url = "https://twitter.com/gelliottmorris"
 [[params.social]]
-    title = "Github"
-    url = "https://github.com/elliottmorris"
+    title = ""
+    icon = "fa fa-github-square"
+    url = "https://github.com/elliottmorris"   
+[[params.social]]
+    title = "Blog"
+    icon = ""
+    url = "https://www.thecrosstab.com"
+
+    
