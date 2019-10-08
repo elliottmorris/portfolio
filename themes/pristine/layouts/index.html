@@ -1,17 +1,30 @@
 {{ partialCached "header/head.html" . }}
 
-  <div id="main">
-    {{ partial "nav.html" . }}
-    <h1 class="animated flipInX"><a href="/">{{ .Title }}</a></h1>
-    <div class="talkies">
-        {{ .Content }}
+<div class="container">
+  <div class="row"> 
+
+    <div id="sidebar" class="col-sm-4">
+      {{ partial "sidemenu.html" . }}
     </div>
 
-    {{ if isset .Site.Params "social" }}
-        {{ partialCached "social.html" . }}
-    {{ end }}
+    <div id="main" class="col-sm-8">
+
+      <h1 class="animated flipInX"><a href="/">{{ .Title }}</a></h1>
+      <div class="talkies">
+          {{ .Content }}
+      </div>
+
+      {{ if isset .Site.Params "social" }}
+          {{ partialCached "social.html" . }}
+      {{ end }}
+
+      {{ partialCached "footer/foot.html" . }}
+    </div>
   </div>
+  
+</div>
 
 
-{{ partial "sidemenu.html" . }}
-{{ partialCached "footer/foot.html" . }}
+
+ 
+ 

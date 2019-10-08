@@ -1,12 +1,13 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 body{
-    margin: 0 auto;
+    margin: 0 auto !important;
     width: 100%;
     position: relative;
-    max-width: 800px;
+    max-width: 768px;
     font-family: 'Roboto Slab', serif;
 }
+
 
 ::-moz-selection {
     background: #b3d4fc;
@@ -62,44 +63,14 @@ code {
 h3 {
     margin-top: 25px;
     color: #303030;
-    font-family: 'Source Serif Pro', serif;
 }
-
-
-#main,
-#sidebar {
-    position: absolute;
-    top: 40px;
-}
-* {
-    margin: 0;
-    padding: 0;
-    text-rendering: optimizeLegibility;
-    -moz-osx-font-smoothing: grayscale;
-    -moz-font-feature-settings: 'liga', 'kern';
-    font-stretch: normal;
-    -webkit-font-kerning: auto;
-    font-kerning: auto;
-    -webkit-font-smoothing: antialiased!important;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .004);
-    vertical-align: baseline;
-    font-family: 'Source Serif Pro', serif;
-}
-
-
-
-
-#main p,
-#sidebar h2 {
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-
 
 #main {
-    left: 280px;
-    width: 500px;
+    border-left: 1px solid #DEDEDE;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
+
 #main h1 {
     margin-top: 0;
     font-size: 40px;
@@ -121,14 +92,12 @@ h3 {
 
 
 
-
 #sidebar {
-    left: 20px;
-    width: 200px;
-    padding: 20px 20px 0 0;
-    border-right: 1px solid #ccc;
+    padding: 20px 20px 20px 20px;
     text-align: right;
+    
 }
+
 #sidebar h2 {
     margin-top: 20px;
     text-transform: uppercase;
@@ -144,6 +113,19 @@ h3 {
     line-height: 20px;
 }
 
+
+@media all and (max-width: 768px) {
+    .col-sm-8 {
+        border-left: 0;
+        border-top: 1px solid #DEDEDE;
+    }
+    
+    #sidebar { 
+        text-align: left;
+    }
+}
+
+
 #nav {
     display: none;
     margin-bottom: 20px
@@ -155,44 +137,9 @@ h3 {
 }
 
 #nav img.logo {
-    width: 100px;
+    width: 200px;
     margin-bottom: 10px;
 }
-
-
-@media only screen and (max-width: 800px){
-    .talkies {
-        padding-top: 20px;
-    }
-    
-    #sidebar {
-        left: 0;
-        width: 200px;
-        padding: 20px 12px 0 0;
-    }
-
-    #main {
-        left: 214px;
-        width: 486px;
-    }
-}
-
-
-@media only screen and (max-width: 800px){
-    #nav {
-        display: initial;
-    }
-
-    #sidebar {
-        display: none;
-    }
-
-    #main {
-        left: 15px;
-        width: calc(100% - 30px);
-    }
-}
-
 
 .social {
     margin: 50px 0;
@@ -217,7 +164,8 @@ a.changelog:hover {
 
 
 img.logo {
-    width: 200px;
+    border-radius: 100%;
+    max-width: 300px;
 }
 
 *:focus {
@@ -252,7 +200,6 @@ a:active {
 
 .links {
     color: inherit;
-    font-family: 'Source Sans Pro', serif;
 }
 
 .links:hover {
