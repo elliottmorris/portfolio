@@ -4,28 +4,27 @@ date: 2018-06-06T03:00:53+06:00
 draft: false
 ---
 
-
 ## About me
 
-<hr>
+---
 
-**I am a data journalist** for _The Economist_ based in Washington, DC. [Proof.](https://mediadirectory.economist.com/people/g-elliott-morris-2/)
+**[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** for _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data.
 
-<br>
-
-This is a single-page site for listing all of my work in one places. Some details are omitted for simplicity's sake. Go to my blog, [thecrosstab.com](https://www.thecrosstab.com), for more information and regular updates.
+This is a simple single-page site for listing all of my work in one places. Some details are omitted for simplicity's sake. Go to my blog, [thecrosstab.com](https://www.thecrosstab.com), for more information and regular updates.
 
 I also post a lot on Twitter: <a href="https://twitter.com/gelliottmorris?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @gelliottmorris</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I circulate a weekly email to people who want to know more about politics using data. You can read it at [thecrosstab.substack.com](https://thecrosstab.substack.com) or sign up below!
 
+<div style="padding-left:2rem; padding-right:2rem; max-width:100%">
 <iframe width="480" height="320" src="https://thecrosstab.substack.com/embed" frameborder="0" scrolling="no"></iframe>
+</div>
 
 <br>
 
 ## Projects
 
-<hr>
+---
 
 <div class='project' id = 'proj dem primaries'>
 <p class='project_title'>
