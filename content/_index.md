@@ -28,6 +28,8 @@ I circulate a weekly email to people who want to know more about politics using 
 
 ### Writing + code
 
+Who is winning the race for Westminster? • [The Economist](https://www.economist.com/graphic-detail/2019/10/11/who-is-winning-the-race-for-westminster)
+
 When to pay attention to 2020 forecasts • [The Economist](https://www.economist.com/democracy-in-america/2019/07/26/when-to-pay-attention-to-2020-forecasts)
 
 If everyone had voted, Hillary Clinton would probably be president • [The Economist](https://www.economist.com/graphic-detail/2019/07/06/if-everyone-had-voted-hillary-clinton-would-probably-be-president)
