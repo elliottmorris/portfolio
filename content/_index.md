@@ -12,6 +12,12 @@ draft: false
 
 This is a simple site for listing all of my work in one place. Some details are omitted for simplicity's sake. Go to my blog, [thecrosstab.com](https://www.thecrosstab.com), for more information and regular updates.
 
+<hr>
+
+## Contact
+
+You can reach me via email at elliott[AT]thecrosstab.com.
+
 I also post a lot on Twitter: <a href="https://twitter.com/gelliottmorris?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @gelliottmorris</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I circulate a weekly email to people who want to know more about politics using data. You can read it at [thecrosstab.substack.com](https://thecrosstab.substack.com) or sign up below!
