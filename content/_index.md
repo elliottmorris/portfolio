@@ -12,13 +12,6 @@ draft: false
 
 This is a simple site for listing all of my work in one place. Some details are omitted for simplicity's sake. Go to my blog, [thecrosstab.com](https://www.thecrosstab.com), for more information and regular updates.
 
-<br>
-
-## Contact
-
----
-
-You can reach me via email at elliott[AT]thecrosstab.com.
 
 I also post a lot on Twitter: <a href="https://twitter.com/gelliottmorris?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @gelliottmorris</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
@@ -27,6 +20,7 @@ I circulate a weekly email to people who want to know more about politics using 
 <div style="padding-left:2rem; padding-right:2rem; max-width:100%">
 <iframe width="480" height="320" src="https://thecrosstab.substack.com/embed" frameborder="0" scrolling="no"></iframe>
 </div>
+
 
 <br>
 
@@ -64,3 +58,13 @@ My package for doing political data analysis in the R programming language, `pol
 My online course on R, "Analyzing Election and Polling Data in R". • [Link](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r)
 
 _[Find more code on my blog](https://www.thecrosstab.com/project/)_
+
+
+<br>
+
+## Contact
+
+---
+
+You can reach me via email at elliott[AT]thecrosstab.com.
+
