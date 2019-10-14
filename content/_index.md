@@ -12,9 +12,11 @@ draft: false
 
 This is a simple site for listing all of my work in one place. Some details are omitted for simplicity's sake. Go to my blog, [thecrosstab.com](https://www.thecrosstab.com), for more information and regular updates.
 
-<hr>
+<br>
 
 ## Contact
+
+---
 
 You can reach me via email at elliott[AT]thecrosstab.com.
 
