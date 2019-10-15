@@ -10,7 +10,13 @@ body{
 
 #container{
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
 }
 
 ::-moz-selection {

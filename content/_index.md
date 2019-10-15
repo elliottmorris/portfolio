@@ -5,12 +5,11 @@ draft: false
 ---
 
 ## About me
-
 ---
 
 **[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** at _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data.
 
-This is a simple site for listing all of my work in one place. Some details are omitted for simplicity's sake. Go to my blog, [thecrosstab.com](https://www.thecrosstab.com), for more information and regular updates.
+This is a simple site for listing all of my work in one place. Some details are omitted for simplicity's sake. Please visit my blog, [thecrosstab.com](https://www.thecrosstab.com), for more information and regular posts.
 
 
 I also post a lot on Twitter: <a href="https://twitter.com/gelliottmorris?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @gelliottmorris</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -21,11 +20,23 @@ I circulate a weekly email to people who want to know more about politics using 
 <iframe width="480" height="320" src="https://thecrosstab.substack.com/embed" frameborder="0" scrolling="no"></iframe>
 </div>
 
+I received my undergraduate degree in government and history from The University of Texas at Austin in 2018. As part of my coursework I also studied statistics and computer science.
+
+<br>
+
+## News
+---
+
+* October 18, 2019: I will be speaking at The George Washington University on data journalism, political analysis and election forecasting.
+* September 30, 2019: I will be speaking at The University of Texas at Austin about my work for _The Economist_ on what would happen in Americans elections if everyone turned out to vote. [Slides](https://www.thecrosstab.com/slides/2019-09-30-utaustin/#1).
+* August 30, 2019: I will be presenting at the annual meeting of the American Political Science Association on best practices in forecasting elections. [Slides](https://www.thecrosstab.com/slides/2019-08-30-apsa/#1)
+* January 19, 2019: I will be presenting at the annual meeting of the Southern Political Science Association on the success of my forecasting model for the 2018 mid-term elections, and on what the mid-terms tell us about politics (and 2020).
+
+I am available for speeches and presentations around the US and abroad. My email appears at the bottom of this webpage.
 
 <br>
 
 ## Selected work
-
 ---
 
 ### Writing + code
@@ -63,8 +74,6 @@ _[Find more code on my blog](https://www.thecrosstab.com/project/)_
 <br>
 
 ## Contact
-
 ---
 
-You can reach me via email at elliott[AT]thecrosstab.com.
-
+My email address is elliott (AT) thecrosstab (DOT) com.
