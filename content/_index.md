@@ -27,12 +27,12 @@ I received my undergraduate degree in government and history from The University
 ## News
 ---
 
-* October 18, 2019: I will be speaking at The George Washington University on data journalism, political analysis and election forecasting.
-* September 30, 2019: I will be speaking at The University of Texas at Austin about my work for _The Economist_ on what would happen in Americans elections if everyone turned out to vote. [Slides](https://www.thecrosstab.com/slides/2019-09-30-utaustin/#1).
+* October 18, 2019: I will be speaking at The George Washington University on data journalism, political analysis and election forecasting. [Slides](https://www.thecrosstab.com/slides/2019-10-18-gw/#1)
+* September 30, 2019: I will be speaking at The University of Texas at Austin about my work for _The Economist_ on what would happen in Americans elections if everyone turned out to vote. [Slides](https://www.thecrosstab.com/slides/2019-09-30-utaustin/#1)
 * August 30, 2019: I will be presenting at the annual meeting of the American Political Science Association on best practices in forecasting elections. [Slides](https://www.thecrosstab.com/slides/2019-08-30-apsa/#1)
 * January 19, 2019: I will be presenting at the annual meeting of the Southern Political Science Association on the success of my forecasting model for the 2018 mid-term elections, and on what the mid-terms tell us about politics (and 2020).
 
-I am available for speeches and presentations around the US and abroad. My email appears at the bottom of this webpage.
+I am available for speeches and presentations around the US and abroad. Feel free to reach out via email.
 
 <br>
 
