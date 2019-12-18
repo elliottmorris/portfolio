@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "G. Elliott Morris"
 canonifyURLs = true
 enableEmoji = true
-googleAnalytics = "UA-XXXXXX-1"
 
 theme = "pristine"
 
