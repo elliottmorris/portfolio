@@ -4,20 +4,15 @@ body{
     margin: 0 auto !important;
     width: 100%;
     position: relative;
-    max-width: 960px;
+    max-width: 900px;
     font-family: 'Merriweather', serif !important;
 }
 
 #container{
-    padding-top: 2rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
-.footer {
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
-}
 
 ::-moz-selection {
     background: #b3d4fc;
