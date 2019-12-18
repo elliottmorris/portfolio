@@ -126,7 +126,7 @@ h3 {
 }
 
 
-@media all and (max-width: 576px) {
+@media all and (max-width: 768px) {
     #main {
         border-left: 0;
         border-top: 1px solid #DEDEDE;
@@ -138,7 +138,7 @@ h3 {
 }
 
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 990px) {
     .sidebar_extras {
         display: none !important;
     }
