@@ -32,7 +32,6 @@ I received my undergraduate degree in government and history from The University
 * August 30, 2019: I will be presenting at the annual meeting of the American Political Science Association on best practices in forecasting elections. [Slides](https://www.thecrosstab.com/slides/2019-08-30-apsa/#1)
 * January 19, 2019: I will be presenting at the annual meeting of the Southern Political Science Association on the success of my forecasting model for the 2018 mid-term elections, and on what the mid-terms tell us about politics (and 2020).
 
-I am available for speeches and presentations around the US and abroad. Feel free to reach out via email.
 
 <br>
 
@@ -76,4 +75,4 @@ _[Find more code on my blog](https://www.thecrosstab.com/project/)_
 ## Contact
 ---
 
-My email address is elliott (AT) thecrosstab (DOT) com.
+Want to get in touch? My email address is elliott (AT) thecrosstab (DOT) com.
