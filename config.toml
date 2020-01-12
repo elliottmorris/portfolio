@@ -11,15 +11,15 @@ theme = "pristine"
 
 [[params.social]]
     title = ""
-    icon = "fa fa-envelope"
+    icon = "fa fa-envelope fa-lg"
     url = "mailto:elliott@thecrosstab.com"
 [[params.social]]
     title = ""
-    icon = "fa fa-twitter"
+    icon = "fa fa-twitter fa-lg"
     url = "https://twitter.com/gelliottmorris"
 [[params.social]]
     title = ""
-    icon = "fa fa-github"
+    icon = "fa fa-github fa-lg"
     url = "https://github.com/elliottmorris"   
 [[params.social]]
     title = "Blog"
