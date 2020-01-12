@@ -19,7 +19,7 @@ theme = "pristine"
     url = "https://twitter.com/gelliottmorris"
 [[params.social]]
     title = ""
-    icon = "fa fa-github-square"
+    icon = "fa fa-github"
     url = "https://github.com/elliottmorris"   
 [[params.social]]
     title = "Blog"
