@@ -9,21 +9,38 @@ theme = "pristine"
 [params]
     portrait = "img/elliott.png"
 
-[[params.social]]
-    title = ""
-    icon = "fa fa-envelope fa-lg"
-    url = "mailto:elliott@thecrosstab.com"
-[[params.social]]
-    title = ""
-    icon = "fa fa-twitter fa-lg"
-    url = "https://twitter.com/gelliottmorris"
-[[params.social]]
-    title = ""
-    icon = "fa fa-github fa-lg"
-    url = "https://github.com/elliottmorris"   
+[permalinks]
+    page = "/:slug/"
+    
+[[menu.main]]
+    url = "/writing/"
+    name = "Writing"
+    weight = 1
+
+[[menu.main]]
+    url = "/code/"
+    name = "Code"
+    weight = 2
+
+
 [[params.social]]
     title = "Blog"
     icon = ""
     url = "https://www.thecrosstab.com"
+
+[[params.social]]
+    title = ""
+    icon = "fa fa-twitter fa-lg"
+    url = "https://twitter.com/gelliottmorris"
+
+[[params.social]]
+    title = ""
+    icon = "fa fa-github fa-lg"
+    url = "https://github.com/elliottmorris"   
+
+[[params.social]]
+    title = ""
+    icon = "fa fa-envelope fa-lg"
+    url = "mailto:elliott@thecrosstab.com"
 
     

@@ -9,7 +9,7 @@ draft: false
 
 **[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** at _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data.
 
-This is a simple site for listing all of my work in one place. Some details are omitted for simplicity's sake. Please visit my blog, [thecrosstab.com](https://www.thecrosstab.com), for more information and regular posts.
+This is a simple site for explaining my biography and listing all of my work in one place. At my now-defunct blog, [thecrosstab.com](https://www.thecrosstab.com), you'll find more information, some big projects and a lot of old posts. One day, I may transfer that content here.
 
 
 I also post a lot on Twitter: <a href="https://twitter.com/gelliottmorris?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @gelliottmorris</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -58,7 +58,8 @@ Two Ways of Thinking about Election Predictions and What They Tell Us About 2018
 
 How Much Can the Youth Vote Actually Help Democrats? • [The New York Times Upshot](https://www.nytimes.com/2017/09/14/upshot/how-much-can-the-youth-vote-actually-help-democrats.html)
 
-_[Find more work on my blog](https://www.thecrosstab.com/writing/)_
+
+_[You can find all of my writing here](/writing/)_
 
 
 ### Just code

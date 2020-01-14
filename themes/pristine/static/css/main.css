@@ -5,7 +5,8 @@ body{
     width: 100%;
     position: relative;
     max-width: 900px;
-    font-family: 'Merriweather', serif !important;
+    font-family: 'Lora', serif !important;
+    /*font-family: 'Merriweather', serif !important;*/
 }
 
 #container{

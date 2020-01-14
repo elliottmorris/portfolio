@@ -7,10 +7,8 @@
   {{ end }}
 
   <br>
-
-  {{ if isset .Site.Params "social" }}
-  {{ partialCached "social.html" . }}
+  
   {{ partial "sidebar_extras.html"}}
-  {{ end }}
+
 
 </div>

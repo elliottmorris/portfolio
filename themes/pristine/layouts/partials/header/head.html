@@ -18,3 +18,35 @@
     {{ partialCached "header/custom-head.html" . }}
   </head>
   <body>
+
+    <div class="container" id="container">
+
+      <nav class="navbar navbar-expand navbar-light bg-light">
+      
+        <div class="collapse navbar-collapse">
+          <a class="navbar-brand" href="/">G. Elliott Morris</a>
+    
+          <ul class="navbar-nav mr-auto">
+            {{ range sort .Site.Menus.main }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a> 
+            </li>
+            {{ end }}
+            
+            {{ if isset .Site.Params "social" }}
+            {{ range $i, $e := .Site.Params.social }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ $e.url }}">
+                <i class="{{$e.icon}}"></i>
+                {{$e.title}}
+              </a>
+            </li>
+            {{ end }}
+            {{ end }}    
+            
+           
+          </ul>
+          
+        </div>
+      </nav>
+      <br>
