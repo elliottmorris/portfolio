@@ -1,1 +1,10 @@
-404 ERROR page not found
+{{ partialCached "header/head.html" . }}
+
+<h1>404 Error page not found</h1>
+
+<strong><a href='/'>Click here to go back home</a></strong>
+
+<img src='/static/img/404.gif'>
+
+{{ partialCached "footer/foot.html" . }}
+
