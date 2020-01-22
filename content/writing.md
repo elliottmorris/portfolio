@@ -218,4 +218,8 @@ https://www.economist.com/graphic-detail/2019/12/14/a-plurality-of-americans-but
 
 https://projects.economist.com/uk-elections/2019/general-election-results
 
+https://www.economist.com/graphic-detail/2020/01/20/higher-minimum-wages-are-linked-to-lower-suicide-rates
+
+
+
 
