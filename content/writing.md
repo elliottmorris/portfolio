@@ -220,6 +220,11 @@ https://projects.economist.com/uk-elections/2019/general-election-results
 
 https://www.economist.com/graphic-detail/2020/01/20/higher-minimum-wages-are-linked-to-lower-suicide-rates
 
+https://www.economist.com/graphic-detail/2020/02/01/under-ranked-choice-voting-left-wing-purism-would-aid-joe-biden
+
+https://www.economist.com/united-states/2020/02/01/who-will-be-donald-trumps-most-forceful-foe
+
+
 
 
 
