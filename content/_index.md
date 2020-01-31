@@ -7,7 +7,7 @@ draft: false
 ## About me
 ---
 
-## Bio
+### Bio
 
 **[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** at _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data. 
 
@@ -21,13 +21,13 @@ I circulate a weekly email to people who want to know more about politics using 
 <iframe width="480" height="320" src="https://thecrosstab.substack.com/embed" frameborder="0" scrolling="no"></iframe>
 </div>
 
-## Background
+### Background
 
-Perhaps the work I am best known for is my election forecasts, which have enjoyed varied success since I began blogging about political statistics in 2015. These days, I am interested in how we can improve over the popular aggregation-based predictive methods by incorporating raw polling micro-data into our models. 
+Perhaps the work I am best known for is my election forecasts, which have enjoyed varied success since I began blogging about political statistics in 2015. These days, I am interested in how we can improve over the popular aggregation-based election forecasting methods by incorporating raw polling micro-data into our models. Such an approach can make crucial improvements in state-level polling, decreasing the biases in our national probabilistic estimates and producing more reliable day-to-day forecasts.
 
-I received my undergraduate degree in government and history from The University of Texas at Austin in 2018. As part of my coursework I also studied statistics and computer science. I used to intern at the Pew Research Center and briefly produced statistical models for the election returns startup Decision Desk HQ.
+I received my undergraduate degrees in government and history from The University of Texas at Austin in 2018. As part of my coursework I also studied statistics and computer science. I used to intern at the Pew Research Center and briefly produced statistical models for the election returns startup Decision Desk HQ.
 
-Broadly speaking, I am motivated by an interest to better understand American politics using data science and predictive analytics. _Got any leads? Drop me a line!_ 
+Broadly speaking, I am motivated by an interest to better understand the world using data science and predictive analytics. I also have a firmly-held belief in the power of political polling to improve democracy. _Got any leads? Drop me a line!_ 
 
 <br>
 
