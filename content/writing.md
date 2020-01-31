@@ -6,8 +6,13 @@ draft: false
 
 My writing. Like, all of it. Soon to be cleaned up. Roughly chronological.
 
+## 2017
+
 
 https://www.nytimes.com/2017/09/14/upshot/how-much-can-the-youth-vote-actually-help-democrats.html
+
+
+## 2018
 
 https://www.economist.com/news/united-states/21738400-still-consistent-idea-democratic-wave-conor-lamb-likely-lose
 
@@ -61,6 +66,9 @@ https://www.economist.com/graphic-detail/2018/11/16/obama-trump-voters-turn-back
 https://www.economist.com/united-states/2018/12/08/democrats-did-much-better-in-rural-america-than-you-think
 
 https://www.economist.com/united-states/2018/12/08/election-fraud-in-north-carolinas-ninth-district
+
+
+## 2019
 
 https://www.economist.com/graphic-detail/2019/01/05/the-failure-of-gerrymandering
 
@@ -217,6 +225,8 @@ https://www.economist.com/graphic-detail/2019/12/10/democrats-issue-their-charge
 https://www.economist.com/graphic-detail/2019/12/14/a-plurality-of-americans-but-not-of-states-want-donald-trump-impeached
 
 https://projects.economist.com/uk-elections/2019/general-election-results
+
+## 2020
 
 https://www.economist.com/graphic-detail/2020/01/20/higher-minimum-wages-are-linked-to-lower-suicide-rates
 
