@@ -4,7 +4,7 @@ date: 2018-06-06T03:00:53+06:00
 draft: false
 ---
 
-As a data journalist, I spend much of my day working in various computer programming languages. I have written a few guides to performing different tasks and even developed my own software packages. I work predominantly in R and Python, though also know tools for web development such as HTML, CSS and Markdown.
+As a data journalist, I spend much of my day working in various computer programming languages. I have written a few guides to performing different tasks and even developed my own software packages. I work predominantly in R, Stan and Python though I also know tools for web development such as HTML, CSS and Javascript.
 
 
 For more, [visit my profile on GitHub](https://github.com/elliottmorris), where I'm active almost every day. 
