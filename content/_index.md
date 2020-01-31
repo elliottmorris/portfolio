@@ -7,9 +7,9 @@ draft: false
 ## About me
 ---
 
-**[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** at _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data.
+**[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** at _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data. 
 
-This is a simple site for explaining my biography and listing all of my work in one place. At my now-defunct blog, [thecrosstab.com](https://www.thecrosstab.com), you'll find more information, some big projects and a lot of old posts. One day, I may transfer that content here.
+This is a simple site for explaining my biography and listing all of my work in one place. At my old blog, [thecrosstab.com](https://www.thecrosstab.com), you'll find more information, some big projects and a lot of aged posts. One day I may actually transfer that content here.
 
 
 I also post a lot on Twitter: <a href="https://twitter.com/gelliottmorris?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @gelliottmorris</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
@@ -39,6 +39,8 @@ I received my undergraduate degree in government and history from The University
 ---
 
 ### Writing + code
+
+Who will be Donald Trump’s most forceful foe? • [The Economist](https://www.economist.com/united-states/2020/02/01/who-will-be-donald-trumps-most-forceful-foe)
 
 Who is winning the race for Westminster? • [The Economist](https://www.economist.com/graphic-detail/2019/10/11/who-is-winning-the-race-for-westminster)
 
