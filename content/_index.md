@@ -7,27 +7,27 @@ draft: false
 ## About me
 ---
 
-**[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** at _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data. 
+## Bio
 
+**[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** at _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data. 
 
 This is a simple site for explaining my biography and listing all of my work in one place. At my old blog, [thecrosstab.com](https://www.thecrosstab.com), you'll find more information, some big projects and a lot of aged posts. One day I may actually transfer that content here.
 
-
 I also post a lot on Twitter: <a href="https://twitter.com/gelliottmorris?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @gelliottmorris</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-
 I circulate a weekly email to people who want to know more about politics using data. You can read it at [thecrosstab.substack.com](https://thecrosstab.substack.com) or sign up below!
-
 
 <div style="padding-left:2rem; padding-right:2rem; max-width:100%">
 <iframe width="480" height="320" src="https://thecrosstab.substack.com/embed" frameborder="0" scrolling="no"></iframe>
 </div>
 
-The work I am better known for is my election forecasts, which have enjoyed varied success since 2015. These days, I am interested in how we can improve over the popular aggregation-based methods by incorporating raw polling micro-data into our models. Stay tuned.
+## Background
 
+Perhaps the work I am best known for is my election forecasts, which have enjoyed varied success since I began blogging about political statistics in 2015. These days, I am interested in how we can improve over the popular aggregation-based predictive methods by incorporating raw polling micro-data into our models. 
 
-I received my undergraduate degree in government and history from The University of Texas at Austin in 2018. As part of my coursework I also studied statistics and computer science.
+I received my undergraduate degree in government and history from The University of Texas at Austin in 2018. As part of my coursework I also studied statistics and computer science. I used to intern at the Pew Research Center and briefly produced statistical models for the election returns startup Decision Desk HQ.
 
+Broadly speaking, I am motivated by an interest to better understand American politics using data science and predictive analytics. _Got any leads? Drop me a line!_ 
 
 <br>
 
