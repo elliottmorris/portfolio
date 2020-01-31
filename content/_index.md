@@ -7,7 +7,7 @@ draft: false
 ## About me
 ---
 
-**[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** at _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data. 
+**[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** at _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data. I work directly with raw polling data and on election forecasting models on a daily basis.
 
 This is a simple site for explaining my biography and listing all of my work in one place. At my old blog, [thecrosstab.com](https://www.thecrosstab.com), you'll find more information, some big projects and a lot of aged posts. One day I may actually transfer that content here.
 
