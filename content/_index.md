@@ -7,22 +7,30 @@ draft: false
 ## About me
 ---
 
-**[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** at _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data. I work directly with raw polling data and on election forecasting models on a daily basis.
+**[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** at _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data. 
+
 
 This is a simple site for explaining my biography and listing all of my work in one place. At my old blog, [thecrosstab.com](https://www.thecrosstab.com), you'll find more information, some big projects and a lot of aged posts. One day I may actually transfer that content here.
 
 
 I also post a lot on Twitter: <a href="https://twitter.com/gelliottmorris?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @gelliottmorris</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
 I circulate a weekly email to people who want to know more about politics using data. You can read it at [thecrosstab.substack.com](https://thecrosstab.substack.com) or sign up below!
+
 
 <div style="padding-left:2rem; padding-right:2rem; max-width:100%">
 <iframe width="480" height="320" src="https://thecrosstab.substack.com/embed" frameborder="0" scrolling="no"></iframe>
 </div>
 
+The work I am better known for is my election forecasts, which have enjoyed varied success since 2015. These days, I am interested in how we can improve over the popular aggregation-based methods by incorporating raw polling micro-data into our models. Stay tuned.
+
+
 I received my undergraduate degree in government and history from The University of Texas at Austin in 2018. As part of my coursework I also studied statistics and computer science.
 
+
 <br>
+
 
 ## News
 ---
@@ -35,8 +43,10 @@ I received my undergraduate degree in government and history from The University
 
 <br>
 
+
 ## Selected work
 ---
+
 
 ### Writing + code
 
