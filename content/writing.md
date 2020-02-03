@@ -98,7 +98,6 @@ https://www.economist.com/democracy-in-america/2019/02/19/do-voter-id-laws-reduc
 
 https://www.economist.com/united-states/2019/02/28/the-politicisation-of-white-evangelical-christianity-is-hurting-it
 
-
 https://www.economist.com/graphic-detail/2019/03/05/climate-change-will-affect-more-than-the-weather
 
 https://www.economist.com/democracy-in-america/2019/03/15/beto-orourke-heads-to-iowa
@@ -227,6 +226,8 @@ https://www.economist.com/graphic-detail/2019/12/14/a-plurality-of-americans-but
 https://projects.economist.com/uk-elections/2019/general-election-results
 
 ## 2020
+
+In 2020 The Economist started a weekly US politics newsletter called "Checks and Balance" that I wrote for each week: https://www.economist.com/checksandbalance/
 
 https://www.economist.com/graphic-detail/2020/01/20/higher-minimum-wages-are-linked-to-lower-suicide-rates
 
