@@ -8,7 +8,7 @@ My writing in reverse-chronological order.
 
 ## 2020
 
-In 2020, _The Economist_ started a weekly newsletter about US politics. I wrote a data-driven article for it each week: https://www.economist.com/checksandbalance/ 
+In 2020, _The Economist_ started a newsletter devoted to American politics for which I wrote a data-driven article each week. https://www.economist.com/checksandbalance/ 
 
 https://www.economist.com/graphic-detail/2020/03/11/in-america-even-pandemics-are-political
 
