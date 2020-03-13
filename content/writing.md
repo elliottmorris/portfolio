@@ -10,6 +10,10 @@ My writing in reverse-chronological order.
 
 In 2020, _The Economist_ started a weekly newsletter about US politics. I wrote a data-driven article for it each week: https://www.economist.com/checksandbalance/ 
 
+https://www.economist.com/graphic-detail/2020/03/11/in-america-even-pandemics-are-political
+
+https://www.economist.com/united-states/2020/03/12/working-class-whites-deserted-bernie-sanders-in-the-midwest
+
 https://www.economist.com/graphic-detail/2020/03/03/political-bettors-pick-joe-biden-as-the-democrat-best-able-to-beat-donald-trump
 
 https://www.economist.com/united-states/2020/02/22/why-donald-trumps-high-approval-ratings-may-be-misleading
