@@ -1,10 +1,14 @@
 ---
-title: "Writing"
+title: "Published Writing"
 date: 2018-06-06T03:00:53+06:00
 draft: false
 ---
 
-My writing in reverse-chronological order.
+My writing, in reverse-chronological order. 
+
+_(This page excludes all of my [newsletter writing](https://thecrosstab.substack.com/archive/), amounting to about two data-driven posts each week on electoral politics.)_
+
+<br>
 
 ## 2020
 
