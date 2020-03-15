@@ -6,7 +6,7 @@ draft: false
 
 My writing, in reverse-chronological order. 
 
-_(This page excludes all of my [newsletter writing](https://thecrosstab.substack.com/archive/), amounting to about two data-driven posts each week on electoral politics.)_
+_(This page excludes all of my [newsletter writing](https://thecrosstab.substack.com/archive/), which amounts to roughly two data-driven blog posts on electoral politics each week.)_
 
 <br>
 
