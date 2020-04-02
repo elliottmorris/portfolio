@@ -14,6 +14,10 @@ _(This page excludes all of my [newsletter writing](https://thecrosstab.substack
 
 In 2020, _The Economist_ started a newsletter devoted to American politics for which I wrote a data-driven article each week. https://www.economist.com/checksandbalance/ 
 
+https://www.economist.com/graphic-detail/2020/04/02/american-states-responses-to-the-coronavirus-follow-party-lines
+
+https://www.economist.com/united-states/2020/03/19/joe-biden-builds-an-insurmountable-lead
+
 https://www.economist.com/graphic-detail/2020/03/11/in-america-even-pandemics-are-political
 
 https://www.economist.com/united-states/2020/03/12/working-class-whites-deserted-bernie-sanders-in-the-midwest
