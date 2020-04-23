@@ -14,6 +14,8 @@ _(This page excludes all of my [newsletter writing](https://thecrosstab.substack
 
 In 2020, _The Economist_ started a newsletter devoted to American politics for which I wrote a data-driven article each week. https://www.economist.com/checksandbalance/ 
 
+https://www.economist.com/graphic-detail/2020/04/25/the-south-is-likely-to-have-americas-highest-death-rate-from-covid-19
+
 https://www.economist.com/graphic-detail/2020/04/15/americans-are-not-rallying-around-donald-trump-during-the-pandemic
 
 https://www.economist.com/graphic-detail/2020/04/02/american-states-responses-to-the-coronavirus-follow-party-lines
