@@ -14,6 +14,16 @@ _(This page excludes all of my [newsletter writing](https://thecrosstab.substack
 
 In 2020, _The Economist_ started a newsletter devoted to American politics for which I wrote a data-driven article each week. https://www.economist.com/checksandbalance/ 
 
+https://www.economist.com/graphic-detail/2020/06/12/americas-anachronistic-electoral-college-gives-republicans-an-edge
+
+https://www.economist.com/united-states/2020/06/11/meet-our-us-2020-election-forecasting-model
+
+https://www.economist.com/united-states/2020/06/02/the-violence-in-american-cities-reflects-the-fury-of-polarisation
+
+https://www.economist.com/graphic-detail/2020/05/15/the-coronavirus-may-have-peaked-in-america
+
+https://www.economist.com/united-states/2020/05/02/we-spent-the-lockdown-sorting-american-voters-into-380000-distinct-groups
+
 https://www.economist.com/graphic-detail/2020/04/24/many-poor-americans-cant-afford-to-isolate-themselves
 
 https://www.economist.com/graphic-detail/2020/04/25/the-south-is-likely-to-have-americas-highest-death-rate-from-covid-19
