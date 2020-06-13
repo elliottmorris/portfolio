@@ -11,6 +11,7 @@ theme = "pristine"
 
 [permalinks]
     page = "/:slug/"
+    post = "/:year/:month/:day/:slug/"
     
 [[menu.main]]
     url = "/writing/"
@@ -22,11 +23,10 @@ theme = "pristine"
     name = "Code"
     weight = 2
 
-
-[[params.social]]
-    title = "Blog"
-    icon = ""
-    url = "https://www.thecrosstab.com"
+[[menu.main]]
+    url = "/post/"
+    name = "Blog"
+    weight = 3
 
 [[params.social]]
     title = ""
