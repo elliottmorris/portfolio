@@ -11,14 +11,9 @@ draft: false
 
 **[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** at _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data. I am responsible for many of the paper's election forecasting models, including our [2020](https://projects.economist.com/us-2020-forecast/president) US presidential election forecast.
 
-This is a simple website for explaining my biography and listing all of my work in one place. At my old blog, [thecrosstab.com](https://www.thecrosstab.com), you'll find more information, some big projects and a lot of aged posts. One day I may actually transfer that content here.
+I am writing a book for W. W. Norton on public opinion polling &#8212; its history, influence, successes, failures, and future &#8212; and why it is a crucial tool for a healthy democracy. <a href="https://thecrosstab.substack.com">Sign up for my newsletter</a> to get updates as publication day approaches. *No Margin For Error* is due out in the fall of 2021.
 
-Nowadays I do most of my blogging via my newsletter. You can read it at [thecrosstab.substack.com](https://thecrosstab.substack.com) or sign up below!
-
-
-<div style="padding-left:2rem; padding-right:2rem; max-width:100%">
-<iframe width="480" height="320" src="https://thecrosstab.substack.com/embed" frameborder="0" scrolling="no"></iframe>
-</div>
+I used to write a lot over at my old blog [thecrosstab.com](https://www.thecrosstab.com), but nowadays I do most of my blogging via my newsletter. You can read it and sign up at [thecrosstab.substack.com](https://thecrosstab.substack.com). One day I may transfer that old content here.
 
 I also post a lot on Twitter: <a href="https://twitter.com/gelliottmorris?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="true">Follow @gelliottmorris</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 

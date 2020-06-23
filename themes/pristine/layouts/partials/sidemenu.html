@@ -1,14 +1,10 @@
 <div id="sidebar">
-  <h1 >{{ .Site.Title }}</h1>
-  {{ if $.Site.Params.portrait }}
-  <a href="{{ $.Site.Params.portrait | absURL }}" class="image-link">
-    <img class="logo " src="{{ $.Site.Params.portrait | absURL }}"/>
-  </a>
-  {{ end }}
+  <img style="max-width:150px;" src="img/blank-book-cover.jpg"/></br>
+  <a href="https://thecrosstab.substack.com">Sign up for updates</a> on my book about polls and democracy for W. W. Norton (due to be published in the fall of 2021).
 
-  <br>
-  
-  {{ partial "sidebar_extras.html"}}
-
+  <hr>
+  <iframe width="480" height="320" src="https://thecrosstab.substack.com/embed" frameborder="0" scrolling="no"></iframe>
+  <hr>
+  <a class="twitter-timeline" data-height="1600" href="https://twitter.com/gelliottmorris?ref_src=twsrc%5Etfw">Tweets by gelliottmorris</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 </div>

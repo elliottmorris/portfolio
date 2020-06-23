@@ -1,19 +1,28 @@
 {{ partialCached "header/head.html" . }}
 
-  <div class="row"> 
+<h1>G. Elliott Morris <span class='blink'>|</span> (Data) Journalist, Author</h1>
 
-    <div id="sidebar" class="col-md-4">
-      {{ partial "sidemenu.html" . }}
+<br>
+
+<div class='row'>
+  <!-- <h1 >{{ .Site.Title }}</h1>   -->
+  <div id="main" class="col-sm-12 col-md-8">
+
+    <h1><a href="/">{{ .Title }}</a></h1>
+    <div class="talkies">
+        {{ if $.Site.Params.portrait }}
+          <img class="logo " src="{{ $.Site.Params.portrait | absURL }}"/>
+        {{ end }}
+        {{ .Content }}
     </div>
 
-    <div id="main" class="col-md-8">
-
-      <h1><a href="/">{{ .Title }}</a></h1>
-      <div class="talkies">
-          {{ .Content }}
-      </div>
-
-    </div>
   </div>
+
+  <div id="sidebar" class="col-md-4">
+    {{ partial "sidemenu.html" . }}
+  </div>
+
+
+</div>
 
 {{ partialCached "footer/foot.html" . }}
