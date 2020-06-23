@@ -1,6 +1,6 @@
 baseURL = "https://www.gelliottmorris.com/"
 languageCode = "en-us"
-title = "G. Elliott Morris | (Data) Journalist, Author"
+title = "G. Elliott Morris | (Data) Journalist"
 canonifyURLs = true
 enableEmoji = true
 
