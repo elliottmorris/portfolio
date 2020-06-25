@@ -11,7 +11,7 @@ draft: false
 
 **[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** at _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data. I am responsible for many of the paper's election forecasting models, including our [2020](https://projects.economist.com/us-2020-forecast/president) US presidential election forecast.
 
-I am writing a book for W. W. Norton on public opinion polling &#8212; its history, influence, successes, failures, and future &#8212; and why it is a crucial tool for a healthy democracy. <a href="https://thecrosstab.substack.com">Sign up for my newsletter</a> to get updates as publication day approaches. *No Margin For Error* is due out in the fall of 2021. You can read a short blog post about the project [here](https://thecrosstab.substack.com/p/im-writing-a-book-about-polls-and).
+I am writing a book for W. W. Norton on public opinion polling &#8212; its history, influence, successes, failures, and future &#8212; and why it is a crucial tool for a healthy democracy. [Sign up for my newsletter](https://thecrosstab.substack.com) to get updates as publication day approaches. *No Margin For Error* is due out in the fall of 2021. You can read a short blog post about the project [here](https://thecrosstab.substack.com/p/im-writing-a-book-about-polls-and).
 
 I used to write a lot over at my old blog [thecrosstab.com](https://www.thecrosstab.com), but nowadays I do most of my blogging via my newsletter. You can read it and sign up at [thecrosstab.substack.com](https://thecrosstab.substack.com). One day I may transfer that old content here.
 
