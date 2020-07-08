@@ -14,6 +14,8 @@ _(This page excludes all of my [newsletter writing](https://thecrosstab.substack
 
 In 2020, _The Economist_ started a newsletter devoted to American politics for which I wrote a data-driven article each week. https://www.economist.com/checksandbalance/ 
 
+https://www.economist.com/graphic-detail/2020/07/07/many-americans-are-ready-to-question-the-result-of-the-presidential-election
+
 https://www.economist.com/united-states/2020/07/02/donald-trump-faces-a-much-bigger-task-than-he-did-in-2016
 
 https://www.economist.com/graphic-detail/2020/06/12/americas-anachronistic-electoral-college-gives-republicans-an-edge
