@@ -1,0 +1,224 @@
+---
+title: "What if everyone voted?"
+subtitle: "And what the answer tells us about voter suppression"
+author: "**G. Elliott Morris** <br />Data journalist <br />_The Economist_"
+date: "September 30, 2019"
+output:
+  xaringan::moon_reader:
+    css: [robot, "my-css.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>class: center, inverse</p>
+<div id="section" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-1" class="section level1">
+<h1> </h1>
+</div>
+<div id="what-is-a-data-journalist" class="section level1">
+<h1>What is a “data journalist”?</h1>
+</div>
+<div id="section-2" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-3" class="section level1">
+<h1> </h1>
+<p>class: center, inverse</p>
+</div>
+<div id="section-4" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-5" class="section level1">
+<h1> </h1>
+</div>
+<div id="what-if-everyone-voted" class="section level1">
+<h1>What if everyone voted?</h1>
+</div>
+<div id="section-6" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-7" class="section level1">
+<h1> </h1>
+<hr />
+</div>
+<div id="guiding-questions" class="section level1">
+<h1>Guiding questions</h1>
+<p>–</p>
+<div id="how-many-democrats-and-republicans-are-there" class="section level2">
+<h2>1. How many Democrats and Republicans are there?</h2>
+<p>Given data constraints, we’re really asking: How many Clinton and Trump voters are there?</p>
+<p>–</p>
+<div id="how-are-they-distributed-geographically" class="section level3">
+<h3>2. How are they distributed geographically?</h3>
+<p>The answer lets us assign Electoral College votes.</p>
+<hr />
+</div>
+</div>
+</div>
+<div id="data" class="section level1">
+<h1>Data</h1>
+<p>–</p>
+<div id="cooperative-congressional-election-study-cces-a-survey-of-64000-americans" class="section level2">
+<h2>1. Cooperative Congressional Election Study (CCES): A survey of 64,000 Americans</h2>
+<p>Includes demographic data and 2016 vote choice for 40,000+ validated voters</p>
+<p>–</p>
+</div>
+<div id="american-community-survey-acs-a-census-bureau-survey-of-175000-americans" class="section level2">
+<h2>2. American Community Survey (ACS): A Census Bureau survey of 175,000 Americans</h2>
+<p>Includes the same demographic data as the CCES
+32,640 “cells”</p>
+<hr />
+</div>
+</div>
+<div id="method" class="section level1">
+<h1>Method</h1>
+<p>–</p>
+<div id="train-a-predictive-model-on-cces-data" class="section level2">
+<h2>1. Train a predictive model on CCES data</h2>
+<ul>
+<li>Multi-level logistic regression</li>
+<li>Predict vote choice with: age, gender, race, education, region and interactions between them</li>
+</ul>
+<p>–</p>
+</div>
+<div id="use-the-model-to-predict-voting-habits-for-every-eligible-american" class="section level2">
+<h2>2. Use the model to predict voting habits for every eligible American</h2>
+<p>Via “post-stratification” on the ACS</p>
+<hr />
+</div>
+</div>
+<div id="acs-post-stratification" class="section level1">
+<h1>ACS Post-stratification</h1>
+<p>–</p>
+<div id="each-type-of-person-gets-their-own-cell" class="section level3">
+<h3>1. Each “type” of person gets their own “cell”:</h3>
+<ul>
+<li>One cell for white men ages 18-30 without college degrees who live in the Northeast</li>
+<li>Another for white men ages 18-30 without college degrees who live in the South</li>
+<li>Another for non-white men ages 18-30 without college degrees who live in the Northeast</li>
+<li>etc.</li>
+</ul>
+<p>–</p>
+</div>
+<div id="we-know-how-many-voters-in-that-cell-live-in-each-state" class="section level3">
+<h3>2. We know how many voters in that “cell” live in each state</h3>
+<p>–</p>
+</div>
+<div id="so-we-can-say-that-x-and-y-of-each-cell-vote-for-clinton-or-trump-then-add-up" class="section level3">
+<h3>3. So we can say that x and y% of each “cell” vote for Clinton or Trump, then add up</h3>
+<ul>
+<li>For example, a Latino female age 18-30 with a college degree in Texas is 85% likely to vote for a Democrat for president (White man 65+ is 80% Republican)</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="results" class="section level1">
+<h1>Results</h1>
+<p><img src="figures/states_demography.png" width="1488" /></p>
+<hr />
+</div>
+<div id="results-1" class="section level1">
+<h1>Results</h1>
+<p><img src="figures/votes_bystate.png" width="1521" /></p>
+<hr />
+</div>
+<div id="results-if-everyone-voted" class="section level1">
+<h1>Results: If everyone voted</h1>
+<p><img src="figures/everyone_votes.png" width="80%" /></p>
+<hr />
+<p>class: center, inverse</p>
+</div>
+<div id="section-8" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-9" class="section level1">
+<h1> </h1>
+</div>
+<div id="what-does-this-tell-us-about-voter-suppression" class="section level1">
+<h1>What does this tell us about voter suppression?</h1>
+</div>
+<div id="section-10" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-11" class="section level1">
+<h1> </h1>
+<hr />
+</div>
+<div id="voter-suppression" class="section level1">
+<h1>Voter suppression</h1>
+<p>–</p>
+<div id="we-can-modify-the-percentage-of-each-group-that-turns-out-to-vote-then-re-predict-the-election" class="section level3">
+<h3>- We can modify the percentage of each group that turns out to vote, then re-predict the election</h3>
+<ul>
+<li>What if only all whites vote?</li>
+<li>All non-whites?</li>
+<li>Whites without degrees? Etc.</li>
+</ul>
+<p>–</p>
+</div>
+<div id="democrats-do-better-when-non-whites-turnout-republicans-have-a-vested-interest-in-keeping-turnout-rates-low" class="section level3">
+<h3>- Democrats do better when non-whites turnout; Republicans have a vested interest in keeping turnout rates low</h3>
+<ul>
+<li>Especially in southern states with large minority populations</li>
+<li>Their efforts to move voting locations off-campus—TX almost removed the FAC as a precinct after 2018—also have political consequences</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="suppression-of-white-votes" class="section level1">
+<h1>Suppression of white votes</h1>
+<p><img src="figures/nonwhites_vote.png" width="80%" /></p>
+<hr />
+</div>
+<div id="suppression-of-non-white-votes" class="section level1">
+<h1>Suppression of non-white votes</h1>
+<div id="section-12" class="section level2">
+<h2><img src="figures/whites_vote.png" width="80%" /></h2>
+</div>
+</div>
+<div id="considerations" class="section level1">
+<h1>Considerations</h1>
+<div id="what-this-doesnt-tell-us" class="section level2">
+<h2>What this doesn’t tell us:</h2>
+<ul>
+<li>That Clinton/Trump/Abrams/etc would have won if certain x, y or z restrictions had been put in place</li>
+<li>Downstream effects (AKA party positions and coalition changes)</li>
+</ul>
+</div>
+<div id="the-balancing-act" class="section level2">
+<h2>The balancing act:</h2>
+<ul>
+<li>There are a ton of white, non-college educated voters in the Midwest that tilt national scales if we increase turnout</li>
+<li>Especially because increases in turnout are not uniform</li>
+<li>And because of their geographic distribution, small relative increases in white turnout can tip the Electoral College to Republicans (see: 2016)</li>
+<li>But on the other hand, some organizations are explicitly targeting non-whites and young voters for turnout purposes</li>
+</ul>
+<hr />
+<p>class: center</p>
+</div>
+</div>
+<div id="thank-you" class="section level1">
+<h1>Thank you!</h1>
+<p> </p>
+<div id="g.-elliott-morris" class="section level2">
+<h2>G. Elliott Morris</h2>
+<div id="data-journalist-the-economist" class="section level3">
+<h3>Data journalist, <em>The Economist</em></h3>
+<p><strong>Email: <a href="mailto:elliott@thecrosstab.com">elliott@thecrosstab.com</a></strong></p>
+<p><strong>Twitter: <span class="citation">[@gelliottmorris]</span>(<a href="http://www.twitter.com/gelliottmorris" class="uri">http://www.twitter.com/gelliottmorris</a>)</strong></p>
+</div>
+</div>
+<div id="section-13" class="section level2">
+<h2><br></h2>
+<p>_These slides were made with the <code>xaringan</code> package for R from Yihui Xie. They are available online at <a href="https://www.thecrosstab.com/slides/2019-09-30-utaustin/_" class="uri">https://www.thecrosstab.com/slides/2019-09-30-utaustin/_</a></p>
+</div>
+</div>

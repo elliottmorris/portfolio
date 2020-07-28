@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+  <head>
+    <title>Why forecast elections?</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="G. Elliott Morris  Data journalist  The Economist" />
+    <meta name="date" content="2019-08-30" />
+    <link href="libs/remark-css-0.0.1/robot.css" rel="stylesheet" />
+    <link rel="stylesheet" href="my-css.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Why forecast elections?
+## And how (not) to do so
+### <strong>G. Elliott Morris</strong> <br />Data journalist <br /><em>The Economist</em>
+### August 30, 2019
+
+---
+
+
+
+
+class: center, inverse
+
+## It's too early to forecast the 2020 election. So let me talk instead about why I think forecasting is worthwhile, but only when done correctly.
+
+
+&lt;img src="figures/dart_monkey.jpg" width="80%" /&gt;
+
+---
+
+# Why forecast?
+
+A few guiding thoughts:
+
+1. Academic reasons: 
+  - Forecasts are a (the most?) popular public-facing product of political science
+  - Forecasting allows us to **explain** things before-hand (if models are robust enough)
+
+2. Journalistic reasons:
+  - Forecasts are better than punditry
+  - Forecasts are better than polls alone
+  - Demand: If mainstream outlets don't (a) make their own forecasts or (b) cover good ones, bad forecasts will dominate
+
+3. They're fun!
+  - They're fun to code and get working
+  - Readers like being presented with interactive content they can return to day-after-day, week-after-week
+
+---
+
+class: center, inverse
+
+# &amp;nbsp; 
+
+## Forecasting is important
+## But can be dangerous when done poorly
+## Pay attention only to forecasters _who take uncertainty seriously_
+## (The other ones are just lying to you)
+
+---
+
+# How (not) to forecast
+
+--
+
+### 1. Don't use economic indicators alone
+
+- They aren't predictive of election outcomes
+- This is becoming more true over time
+
+--
+
+### 2. Don't act certain (unless you really are)
+
+- False certainty can bias media narratives (especially when combined with reporters' political biases)
+- False certainty can lead to severe consequences
+- False certainty betrays our real understanding or how often "unlikely" election outcomes can happen (see: Trump 2016)
+
+--
+
+### 3. Be probabilistic
+
+- Point projections don't matter; distributions do
+- And so do  electoral college votes (i.e. don't just predict the popular vote)
+
+---
+
+
+# 1. Don't use economic indicators alone
+
+- Why? They are not predictive of election outcomes
+
+&lt;div class="figure"&gt;
+&lt;img src="figures/jackson_2015.jpg" alt="Source: Natalie Jackson; Huffington Post (2015)" width="60%" /&gt;
+&lt;p class="caption"&gt;Source: Natalie Jackson; Huffington Post (2015)&lt;/p&gt;
+&lt;/div&gt;
+
+
+---
+
+# 1. Don't use economic indicators alone
+
+- Why? They are not predictive of election outcomes
+- This is becoming more true over time
+
+&lt;div class="figure"&gt;
+&lt;img src="figures/morris_2019.png" alt="Source: G. Elliott Morris; The Economist (2019)" width="70%" /&gt;
+&lt;p class="caption"&gt;Source: G. Elliott Morris; The Economist (2019)&lt;/p&gt;
+&lt;/div&gt;
+
+
+---
+
+# 2. Don't act certain (unless you really are)
+
+- False certainty can bias media narratives (especially when combined with reporters' political biases)
+
+
+&lt;img src="figures/grim_2016.png" width="80%" /&gt;
+
+When presented with competing forecasts, people grab onto the ones that comport with their world-view
+
+&gt; "For the polls to be wrong, there wouldn’t need to be one single 3-point error. All of the polls ― all of them, as Brianna Keilar would put it ― would have to be off by 3 points in the same direction."
+
+&gt; "If you want to put your faith in the numbers, **you can relax. She’s got this.**"
+
+
+---
+
+# 2. Don't act certain (unless you really are)
+
+- False certainty can bias media narratives 
+- False certainty can lead to severe consequences
+
+&lt;img src="figures/yglesias_2018.png" width="80%" /&gt;
+
+
+James Comey, 2018, "A Higher Loyalty": 
+&gt; "It is entirely possible that because I was making decisions in an environment **where Hillary Clinton was sure to be the next president,** my concern about making her an illegitimate president by concealing the restarted investigation bore greater weight than it would have if the election appeared closer or if Donald Trump were ahead in all polls."
+
+
+---
+
+# 3. Don't act certain (unless you really are)
+- False certainty can bias media narratives 
+- False certainty can lead to severe consequences
+- False certainty betrays our real understanding or how often "unlikely" election outcomes can happen (see: Trump 2016)
+
+&lt;div class="figure"&gt;
+&lt;img src="figures/silver_2016.png" alt="Source: Nate Silver; FiveThirtyEight (2016)" width="85%" /&gt;
+&lt;p class="caption"&gt;Source: Nate Silver; FiveThirtyEight (2016)&lt;/p&gt;
+&lt;/div&gt;
+
+
+---
+
+class: center, inverse
+
+# &amp;nbsp;
+# &amp;nbsp;
+
+## How can we convey our certainty?
+
+## With probability!
+
+---
+
+# 3. Be probabilistic
+
+#### Why? Readers have the best understanding of the horse race when presented with probabilities
+
+&lt;div class="figure"&gt;
+&lt;img src="figures/westwood, messing and lelkes_2019.png" alt="Source: Westwood, Messing and Lelkes (2019)" width="70%" /&gt;
+&lt;p class="caption"&gt;Source: Westwood, Messing and Lelkes (2019)&lt;/p&gt;
+&lt;/div&gt;
+
+
+---
+
+# 3. Be probabilistic
+
+### Point projections don't matter, distributions do...
+
+- If we are not giving readers a sense of our certainty, we are lying to them. 
+- The best way to convey our certainty is to produce a distribution of possible outcomes for the election, combing confidence intervals with our our point projections to transform them into probabilities
+
+### ...and so do Electoral College votes (i.e. don't just predict the popular vote)
+
+
+&lt;div class="figure"&gt;
+&lt;img src="figures/silver_2016b.png" alt="Source: Nate Silver; FiveThirtyEight (2016)" width="85%" /&gt;
+&lt;p class="caption"&gt;Source: Nate Silver; FiveThirtyEight (2016)&lt;/p&gt;
+&lt;/div&gt;
+
+
+---
+
+class: center
+
+# Thank you!
+
+&amp;nbsp;
+
+## G. Elliott Morris
+### Data journalist, _The Economist_
+
+**Email: [elliott@thecrosstab.com](mailto:elliott@thecrosstab.com)**
+
+**Twitter: [@gelliottmorris](http://www.twitter.com/gelliottmorris)**
+
+&lt;br&gt; 
+--- 
+
+_These slides were made with the `xaringan` package for R from Yihui Xie. They are available online at https://www.thecrosstab.com/slides/2019-08-30-apsa/_
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

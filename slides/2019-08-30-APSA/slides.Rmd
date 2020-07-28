@@ -1,0 +1,222 @@
+---
+title: "Why forecast elections?"
+subtitle: "And how (not) to do so"
+author: "**G. Elliott Morris** <br />Data journalist <br />_The Economist_"
+date: "August 30, 2019"
+output:
+  xaringan::moon_reader:
+    css: [robot, "my-css.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+```{r include=F}
+# NOTE: EXPORT TO PDF WITH pagedown::chrome_print("slides.Rmd")
+
+#source("figures.R")
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+knitr::opts_chunk$set(echo=F,warning=F,message=F,
+                      eval = TRUE)
+
+```
+
+class: center, inverse
+
+## It's too early to forecast the 2020 election. So let me talk instead about why I think forecasting is worthwhile, but only when done correctly.
+
+
+```{r, out.width='80%'}
+knitr::include_graphics(path="figures/dart_monkey.jpg")
+```
+
+---
+
+# Why forecast?
+
+A few guiding thoughts:
+
+1. Academic reasons: 
+  - Forecasts are a (the most?) popular public-facing product of political science
+  - Forecasting allows us to **explain** things before-hand (if models are robust enough)
+
+2. Journalistic reasons:
+  - Forecasts are better than punditry
+  - Forecasts are better than polls alone
+  - Demand: If mainstream outlets don't (a) make their own forecasts or (b) cover good ones, bad forecasts will dominate
+
+3. They're fun!
+  - They're fun to code and get working
+  - Readers like being presented with interactive content they can return to day-after-day, week-after-week
+
+---
+
+class: center, inverse
+
+# &nbsp; 
+
+## Forecasting is important
+## But can be dangerous when done poorly
+## Pay attention only to forecasters _who take uncertainty seriously_
+## (The other ones are just lying to you)
+
+---
+
+# How (not) to forecast
+
+--
+
+### 1. Don't use economic indicators alone
+
+- They aren't predictive of election outcomes
+- This is becoming more true over time
+
+--
+
+### 2. Don't act certain (unless you really are)
+
+- False certainty can bias media narratives (especially when combined with reporters' political biases)
+- False certainty can lead to severe consequences
+- False certainty betrays our real understanding or how often "unlikely" election outcomes can happen (see: Trump 2016)
+
+--
+
+### 3. Be probabilistic
+
+- Point projections don't matter; distributions do
+- And so do  electoral college votes (i.e. don't just predict the popular vote)
+
+---
+
+
+# 1. Don't use economic indicators alone
+
+- Why? They are not predictive of election outcomes
+
+```{r, fig.cap="Source: Natalie Jackson; Huffington Post (2015)", out.width='60%'}
+knitr::include_graphics(path="figures/jackson_2015.jpg")
+```
+
+
+---
+
+# 1. Don't use economic indicators alone
+
+- Why? They are not predictive of election outcomes
+- This is becoming more true over time
+
+```{r, fig.cap="Source: G. Elliott Morris; The Economist (2019)", out.width='70%'}
+knitr::include_graphics(path="figures/morris_2019.png")
+```
+
+
+---
+
+# 2. Don't act certain (unless you really are)
+
+- False certainty can bias media narratives (especially when combined with reporters' political biases)
+
+
+```{r, out.width='80%'}
+knitr::include_graphics(path="figures/grim_2016.png")
+```
+
+When presented with competing forecasts, people grab onto the ones that comport with their world-view
+
+> "For the polls to be wrong, there wouldn’t need to be one single 3-point error. All of the polls ― all of them, as Brianna Keilar would put it ― would have to be off by 3 points in the same direction."
+
+> "If you want to put your faith in the numbers, **you can relax. She’s got this.**"
+
+
+---
+
+# 2. Don't act certain (unless you really are)
+
+- False certainty can bias media narratives 
+- False certainty can lead to severe consequences
+
+```{r, out.width='80%'}
+knitr::include_graphics(path="figures/yglesias_2018.png")
+```
+
+
+James Comey, 2018, "A Higher Loyalty": 
+> "It is entirely possible that because I was making decisions in an environment **where Hillary Clinton was sure to be the next president,** my concern about making her an illegitimate president by concealing the restarted investigation bore greater weight than it would have if the election appeared closer or if Donald Trump were ahead in all polls."
+
+
+---
+
+# 3. Don't act certain (unless you really are)
+- False certainty can bias media narratives 
+- False certainty can lead to severe consequences
+- False certainty betrays our real understanding or how often "unlikely" election outcomes can happen (see: Trump 2016)
+
+```{r, fig.cap = "Source: Nate Silver; FiveThirtyEight (2016)", out.width='85%'}
+knitr::include_graphics(path="figures/silver_2016.png")
+```
+
+
+---
+
+class: center, inverse
+
+# &nbsp;
+# &nbsp;
+
+## How can we convey our certainty?
+
+## With probability!
+
+---
+
+# 3. Be probabilistic
+
+#### Why? Readers have the best understanding of the horse race when presented with probabilities
+
+```{r, fig.cap = "Source: Westwood, Messing and Lelkes (2019)", out.width='70%'}
+knitr::include_graphics(path="figures/westwood, messing and lelkes_2019.png")
+```
+
+
+---
+
+# 3. Be probabilistic
+
+### Point projections don't matter, distributions do...
+
+- If we are not giving readers a sense of our certainty, we are lying to them. 
+- The best way to convey our certainty is to produce a distribution of possible outcomes for the election, combing confidence intervals with our our point projections to transform them into probabilities
+
+### ...and so do Electoral College votes (i.e. don't just predict the popular vote)
+
+
+```{r, fig.cap = "Source: Nate Silver; FiveThirtyEight (2016)", out.width='85%'}
+knitr::include_graphics(path="figures/silver_2016b.png")
+```
+
+
+---
+
+class: center
+
+# Thank you!
+
+&nbsp;
+
+## G. Elliott Morris
+### Data journalist, _The Economist_
+
+**Email: [elliott@thecrosstab.com](mailto:elliott@thecrosstab.com)**
+
+**Twitter: [@gelliottmorris](http://www.twitter.com/gelliottmorris)**
+
+<br> 
+--- 
+
+_These slides were made with the `xaringan` package for R from Yihui Xie. They are available online at https://www.thecrosstab.com/slides/2019-08-30-apsa/_

@@ -1,0 +1,230 @@
+---
+title: "Why forecast elections?"
+subtitle: "And how (not) to do so"
+author: "**G. Elliott Morris** <br />Data journalist <br />_The Economist_"
+date: "August 30, 2019"
+output:
+  xaringan::moon_reader:
+    css: [robot, "my-css.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>class: center, inverse</p>
+<div id="its-too-early-to-forecast-the-2020-election.-so-let-me-talk-instead-about-why-i-think-forecasting-is-worthwhile-but-only-when-done-correctly." class="section level2">
+<h2>It’s too early to forecast the 2020 election. So let me talk instead about why I think forecasting is worthwhile, but only when done correctly.</h2>
+<p><img src="figures/dart_monkey.jpg" width="80%" /></p>
+<hr />
+</div>
+<div id="why-forecast" class="section level1">
+<h1>Why forecast?</h1>
+<p>A few guiding thoughts:</p>
+<ol style="list-style-type: decimal">
+<li>Academic reasons:</li>
+</ol>
+<ul>
+<li>Forecasts are a (the most?) popular public-facing product of political science</li>
+<li>Forecasting allows us to <strong>explain</strong> things before-hand (if models are robust enough)</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Journalistic reasons:</li>
+</ol>
+<ul>
+<li>Forecasts are better than punditry</li>
+<li>Forecasts are better than polls alone</li>
+<li>Demand: If mainstream outlets don’t (a) make their own forecasts or (b) cover good ones, bad forecasts will dominate</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>They’re fun!</li>
+</ol>
+<ul>
+<li>They’re fun to code and get working</li>
+<li>Readers like being presented with interactive content they can return to day-after-day, week-after-week</li>
+</ul>
+<hr />
+<p>class: center, inverse</p>
+</div>
+<div id="section" class="section level1">
+<h1> </h1>
+<div id="forecasting-is-important" class="section level2">
+<h2>Forecasting is important</h2>
+</div>
+<div id="but-can-be-dangerous-when-done-poorly" class="section level2">
+<h2>But can be dangerous when done poorly</h2>
+</div>
+<div id="pay-attention-only-to-forecasters-who-take-uncertainty-seriously" class="section level2">
+<h2>Pay attention only to forecasters <em>who take uncertainty seriously</em></h2>
+</div>
+<div id="the-other-ones-are-just-lying-to-you" class="section level2">
+<h2>(The other ones are just lying to you)</h2>
+<hr />
+</div>
+</div>
+<div id="how-not-to-forecast" class="section level1">
+<h1>How (not) to forecast</h1>
+<p>–</p>
+<div id="dont-use-economic-indicators-alone" class="section level3">
+<h3>1. Don’t use economic indicators alone</h3>
+<ul>
+<li>They aren’t predictive of election outcomes</li>
+<li>This is becoming more true over time</li>
+</ul>
+<p>–</p>
+</div>
+<div id="dont-act-certain-unless-you-really-are" class="section level3">
+<h3>2. Don’t act certain (unless you really are)</h3>
+<ul>
+<li>False certainty can bias media narratives (especially when combined with reporters’ political biases)</li>
+<li>False certainty can lead to severe consequences</li>
+<li>False certainty betrays our real understanding or how often “unlikely” election outcomes can happen (see: Trump 2016)</li>
+</ul>
+<p>–</p>
+</div>
+<div id="be-probabilistic" class="section level3">
+<h3>3. Be probabilistic</h3>
+<ul>
+<li>Point projections don’t matter; distributions do</li>
+<li>And so do electoral college votes (i.e. don’t just predict the popular vote)</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="dont-use-economic-indicators-alone-1" class="section level1">
+<h1>1. Don’t use economic indicators alone</h1>
+<ul>
+<li>Why? They are not predictive of election outcomes</li>
+</ul>
+<div class="figure"><span id="fig:unnamed-chunk-3"></span>
+<img src="figures/jackson_2015.jpg" alt="Source: Natalie Jackson; Huffington Post (2015)" width="60%" />
+<p class="caption">
+Figure 1: Source: Natalie Jackson; Huffington Post (2015)
+</p>
+</div>
+<hr />
+</div>
+<div id="dont-use-economic-indicators-alone-2" class="section level1">
+<h1>1. Don’t use economic indicators alone</h1>
+<ul>
+<li>Why? They are not predictive of election outcomes</li>
+<li>This is becoming more true over time</li>
+</ul>
+<div class="figure"><span id="fig:unnamed-chunk-4"></span>
+<img src="figures/morris_2019.png" alt="Source: G. Elliott Morris; The Economist (2019)" width="70%" />
+<p class="caption">
+Figure 2: Source: G. Elliott Morris; The Economist (2019)
+</p>
+</div>
+<hr />
+</div>
+<div id="dont-act-certain-unless-you-really-are-1" class="section level1">
+<h1>2. Don’t act certain (unless you really are)</h1>
+<ul>
+<li>False certainty can bias media narratives (especially when combined with reporters’ political biases)</li>
+</ul>
+<p><img src="figures/grim_2016.png" width="80%" /></p>
+<p>When presented with competing forecasts, people grab onto the ones that comport with their world-view</p>
+<blockquote>
+<p>“For the polls to be wrong, there wouldn’t need to be one single 3-point error. All of the polls ― all of them, as Brianna Keilar would put it ― would have to be off by 3 points in the same direction.”</p>
+</blockquote>
+<blockquote>
+<p>“If you want to put your faith in the numbers, <strong>you can relax. She’s got this.</strong>”</p>
+</blockquote>
+<hr />
+</div>
+<div id="dont-act-certain-unless-you-really-are-2" class="section level1">
+<h1>2. Don’t act certain (unless you really are)</h1>
+<ul>
+<li>False certainty can bias media narratives</li>
+<li>False certainty can lead to severe consequences</li>
+</ul>
+<p><img src="figures/yglesias_2018.png" width="80%" /></p>
+<p>James Comey, 2018, “A Higher Loyalty”:
+&gt; “It is entirely possible that because I was making decisions in an environment <strong>where Hillary Clinton was sure to be the next president,</strong> my concern about making her an illegitimate president by concealing the restarted investigation bore greater weight than it would have if the election appeared closer or if Donald Trump were ahead in all polls.”</p>
+<hr />
+</div>
+<div id="dont-act-certain-unless-you-really-are-3" class="section level1">
+<h1>3. Don’t act certain (unless you really are)</h1>
+<ul>
+<li>False certainty can bias media narratives</li>
+<li>False certainty can lead to severe consequences</li>
+<li>False certainty betrays our real understanding or how often “unlikely” election outcomes can happen (see: Trump 2016)</li>
+</ul>
+<div class="figure"><span id="fig:unnamed-chunk-7"></span>
+<img src="figures/silver_2016.png" alt="Source: Nate Silver; FiveThirtyEight (2016)" width="85%" />
+<p class="caption">
+Figure 3: Source: Nate Silver; FiveThirtyEight (2016)
+</p>
+</div>
+<hr />
+<p>class: center, inverse</p>
+</div>
+<div id="section-1" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-2" class="section level1">
+<h1> </h1>
+<div id="how-can-we-convey-our-certainty" class="section level2">
+<h2>How can we convey our certainty?</h2>
+</div>
+<div id="with-probability" class="section level2">
+<h2>With probability!</h2>
+<hr />
+</div>
+</div>
+<div id="be-probabilistic-1" class="section level1">
+<h1>3. Be probabilistic</h1>
+<div id="why-readers-have-the-best-understanding-of-the-horse-race-when-presented-with-probabilities" class="section level4">
+<h4>Why? Readers have the best understanding of the horse race when presented with probabilities</h4>
+<div class="figure"><span id="fig:unnamed-chunk-8"></span>
+<img src="figures/westwood,%20messing%20and%20lelkes_2019.png" alt="Source: Westwood, Messing and Lelkes (2019)" width="70%" />
+<p class="caption">
+Figure 4: Source: Westwood, Messing and Lelkes (2019)
+</p>
+</div>
+<hr />
+</div>
+</div>
+<div id="be-probabilistic-2" class="section level1">
+<h1>3. Be probabilistic</h1>
+<div id="point-projections-dont-matter-distributions-do" class="section level3">
+<h3>Point projections don’t matter, distributions do…</h3>
+<ul>
+<li>If we are not giving readers a sense of our certainty, we are lying to them.</li>
+<li>The best way to convey our certainty is to produce a distribution of possible outcomes for the election, combing confidence intervals with our our point projections to transform them into probabilities</li>
+</ul>
+</div>
+<div id="and-so-do-electoral-college-votes-i.e.-dont-just-predict-the-popular-vote" class="section level3">
+<h3>…and so do Electoral College votes (i.e. don’t just predict the popular vote)</h3>
+<div class="figure"><span id="fig:unnamed-chunk-9"></span>
+<img src="figures/silver_2016b.png" alt="Source: Nate Silver; FiveThirtyEight (2016)" width="85%" />
+<p class="caption">
+Figure 5: Source: Nate Silver; FiveThirtyEight (2016)
+</p>
+</div>
+<hr />
+<p>class: center</p>
+</div>
+</div>
+<div id="thank-you" class="section level1">
+<h1>Thank you!</h1>
+<p> </p>
+<div id="g.-elliott-morris" class="section level2">
+<h2>G. Elliott Morris</h2>
+<div id="data-journalist-the-economist" class="section level3">
+<h3>Data journalist, <em>The Economist</em></h3>
+<p><strong>Email: <a href="mailto:elliott@thecrosstab.com">elliott@thecrosstab.com</a></strong></p>
+<p><strong>Twitter: <span class="citation">[@gelliottmorris]</span>(<a href="http://www.twitter.com/gelliottmorris" class="uri">http://www.twitter.com/gelliottmorris</a>)</strong></p>
+</div>
+</div>
+<div id="section-3" class="section level2">
+<h2><br></h2>
+<p>_These slides were made with the <code>xaringan</code> package for R from Yihui Xie. They are available online at <a href="https://www.thecrosstab.com/slides/2019-08-30-apsa/_" class="uri">https://www.thecrosstab.com/slides/2019-08-30-apsa/_</a></p>
+</div>
+</div>

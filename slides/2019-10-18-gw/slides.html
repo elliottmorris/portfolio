@@ -1,0 +1,341 @@
+---
+title: "Politics, data and journalism"
+subtitle: "Assorted questions and answers"
+author: "**G. Elliott Morris** <br />Data journalist <br />_The Economist_"
+date: "October 18, 2019"
+output:
+  xaringan::moon_reader:
+    css: [robot, "my-css.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+<script src="/rmarkdown-libs/header-attrs/header-attrs.js"></script>
+
+
+<p>class: center, inverse</p>
+<div id="section" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-1" class="section level1">
+<h1> </h1>
+</div>
+<div id="what-is-a-data-journalist" class="section level1">
+<h1>What is a “data journalist”?</h1>
+</div>
+<div id="section-2" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-3" class="section level1">
+<h1> </h1>
+<p>class: center, inverse</p>
+</div>
+<div id="section-4" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-5" class="section level1">
+<h1> </h1>
+</div>
+<div id="example-what-if-everyone-voted" class="section level1">
+<h1>Example: What if everyone voted?</h1>
+</div>
+<div id="section-6" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-7" class="section level1">
+<h1> </h1>
+</div>
+<div id="guiding-questions" class="section level1">
+<h1>Guiding questions</h1>
+<p>–</p>
+<div id="how-many-democrats-and-republicans-are-there" class="section level2">
+<h2>1. How many Democrats and Republicans are there?</h2>
+<p>Given data constraints, we’re really asking: How many Clinton and Trump voters are there?</p>
+<p>–</p>
+<div id="how-are-they-distributed-geographically" class="section level3">
+<h3>2. How are they distributed geographically?</h3>
+<p>The answer lets us assign Electoral College votes.</p>
+<hr />
+</div>
+</div>
+</div>
+<div id="data" class="section level1">
+<h1>Data</h1>
+<p>–</p>
+<div id="cooperative-congressional-election-study-cces-a-survey-of-64000-americans" class="section level2">
+<h2>1. Cooperative Congressional Election Study (CCES): A survey of 64,000 Americans</h2>
+<p>Includes demographic data and 2016 vote choice for 40,000+ validated voters</p>
+<p>–</p>
+</div>
+<div id="american-community-survey-acs-a-census-bureau-survey-of-175000-americans" class="section level2">
+<h2>2. American Community Survey (ACS): A Census Bureau survey of 175,000 Americans</h2>
+<p>Includes the same demographic data as the CCES
+32,640 “cells”</p>
+</div>
+</div>
+<div id="method" class="section level1">
+<h1>Method</h1>
+<p>–</p>
+<div id="train-a-predictive-model-on-cces-data" class="section level2">
+<h2>1. Train a predictive model on CCES data</h2>
+<ul>
+<li>Multi-level logistic regression</li>
+<li>Predict vote choice with: age, gender, race, education, region and interactions between them</li>
+</ul>
+<p>–</p>
+</div>
+<div id="use-the-model-to-predict-voting-habits-for-every-eligible-american" class="section level2">
+<h2>2. Use the model to predict voting habits for every eligible American</h2>
+<p>Via “post-stratification” on the ACS</p>
+<hr />
+</div>
+</div>
+<div id="acs-post-stratification" class="section level1">
+<h1>ACS Post-stratification</h1>
+<p>–</p>
+<div id="each-type-of-person-gets-their-own-cell" class="section level3">
+<h3>1. Each “type” of person gets their own “cell”:</h3>
+<ul>
+<li>One cell for white men ages 18-30 without college degrees who live in the Northeast</li>
+<li>Another for white men ages 18-30 without college degrees who live in the South</li>
+<li>Another for non-white men ages 18-30 without college degrees who live in the Northeast</li>
+<li>etc.</li>
+</ul>
+<p>–</p>
+</div>
+<div id="we-know-how-many-voters-in-that-cell-live-in-each-state" class="section level3">
+<h3>2. We know how many voters in that “cell” live in each state</h3>
+<p>–</p>
+</div>
+<div id="so-we-can-say-that-x-and-y-of-each-cell-vote-for-clinton-or-trump-then-add-up" class="section level3">
+<h3>3. So we can say that x and y% of each “cell” vote for Clinton or Trump, then add up</h3>
+<ul>
+<li>For example, a Latino female age 18-30 with a college degree in Texas is 85% likely to vote for a Democrat for president (White man 65+ is 80% Republican)</li>
+</ul>
+<hr />
+</div>
+</div>
+<div id="results" class="section level1">
+<h1>Results</h1>
+<p><img src="figures/states_demography.png" width="1488" /></p>
+<hr />
+</div>
+<div id="results-1" class="section level1">
+<h1>Results</h1>
+<p><img src="figures/votes_bystate.png" width="1521" /></p>
+<hr />
+</div>
+<div id="results-if-everyone-voted" class="section level1">
+<h1>Results: If everyone voted</h1>
+<p><img src="figures/everyone_votes.png" width="80%" /></p>
+<hr />
+<p>class: center, inverse</p>
+</div>
+<div id="section-8" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-9" class="section level1">
+<h1> </h1>
+</div>
+<div id="election-forecasting-how-do-we-do-it-and-why" class="section level1">
+<h1>Election forecasting: How do we do it, and why?</h1>
+</div>
+<div id="section-10" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-11" class="section level1">
+<h1> </h1>
+</div>
+<div id="how-to-build-an-election-forecasting-model" class="section level1">
+<h1>How to build an election forecasting model:</h1>
+<div id="whats-in-a-model" class="section level3">
+<h3>What’s in a model?</h3>
+<ol style="list-style-type: decimal">
+<li>Start with historical data: a measurement variable and outcome variable</li>
+</ol>
+<ul>
+<li>Like polls and presidential vote share, for example</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Build a statistical model that predicts the outcome variable given some value of the measurement variable</li>
+<li>Add more measurement variables (but not too many!)</li>
+</ol>
+<ul>
+<li>like GDP or presidential approval “fundamentals”</li>
+</ul>
+</div>
+<div id="election-forecasting" class="section level3">
+<h3>Election forecasting</h3>
+<p>Fundamentals + polls -&gt; vote share + simulation -&gt; win probabilities!</p>
+</div>
+</div>
+<div id="when-forecasts-go-wrong" class="section level1">
+<h1>When forecasts go wrong</h1>
+<div id="misspecified-models" class="section level3">
+<h3>• Misspecified models</h3>
+</div>
+<div id="bad-training-data" class="section level3">
+<h3>• Bad training data</h3>
+</div>
+<div id="surprise-outcomes-2016" class="section level3">
+<h3>• Surprise outcomes — 2016</h3>
+<ul>
+<li>Shy Trump (Tory) effect? No evidence.</li>
+<li>Late deciders? Slow-moving averages? Yes.</li>
+</ul>
+</div>
+</div>
+<div id="miscommunicating-uncertainty" class="section level1">
+<h1>• Miscommunicating uncertainty</h1>
+</div>
+<div id="miscommunicating-uncertainty-probability" class="section level1">
+<h1>Miscommunicating uncertainty: probability</h1>
+<div id="readers-have-the-best-understanding-of-the-horse-race-when-presented-with-probabilities" class="section level4">
+<h4>Readers have the best understanding of the horse race when presented with probabilities</h4>
+<div class="figure"><span id="fig:unnamed-chunk-5"></span>
+<img src="figures/westwood,%20messing%20and%20lelkes_2019.png" alt="Source: Westwood, Messing and Lelkes (2019)" width="60%" />
+<p class="caption">
+Figure 1: Source: Westwood, Messing and Lelkes (2019)
+</p>
+</div>
+</div>
+</div>
+<div id="trump-will-lose-in-2020" class="section level1">
+<h1>“Trump will lose” in 2020?</h1>
+<div class="figure"><span id="fig:unnamed-chunk-7"></span>
+<img src="figures/bitecofer_2019.png" alt="Source: Rachel Bitecofer; New York Times (2019)" width="85%" />
+<p class="caption">
+Figure 2: Source: Rachel Bitecofer; New York Times (2019)
+</p>
+</div>
+<ul>
+<li>How can she know for sure?</li>
+</ul>
+</div>
+<div id="forcing-uncertainty" class="section level1">
+<h1>Forcing uncertainty</h1>
+<p><img src="figures/bitecofer_2019b.png" width="40%" /></p>
+<p>–</p>
+<ul>
+<li>Expected probabilistic outcome: 300 Democratic electoral votes</li>
+</ul>
+<p>–</p>
+<ul>
+<li>If you assume a root mean squared error of 45 EVs (half of the 2016 error):</li>
+</ul>
+<p>–</p>
+<ul>
+<li>Distribution of outcomes (95% confidence interval): 212 - 388 Democratic electoral votes</li>
+</ul>
+<p>–</p>
+<ul>
+<li>Or just a 75% chance of Democratic victory</li>
+</ul>
+<p>–</p>
+<ul>
+<li>(If you assume 2016 error is normal for the forecast, then it’s just a 64% chance)</li>
+</ul>
+<p>class: center, inverse</p>
+</div>
+<div id="section-12" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-13" class="section level1">
+<h1> </h1>
+</div>
+<div id="questions" class="section level1">
+<h1>Questions?</h1>
+<div id="volunteers-get-priority" class="section level2">
+<h2>(Volunteers get priority!)</h2>
+</div>
+</div>
+<div id="section-14" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-15" class="section level1">
+<h1> </h1>
+</div>
+<div id="section-16" class="section level1">
+<h1> </h1>
+<blockquote>
+<p>“I would like to know Elliott’s opinion on the NC electoral college and how it may affect the upcoming election.”</p>
+</blockquote>
+<ul>
+<li>North Carolina leans slightly more Republican than other toss-up states like Florida</li>
+<li>Democrats won the state house and senate popular vote there in 2018</li>
+<li>But 2020 is unlikely to be such a wave year</li>
+<li>So I’d say NC is a toss-up state, but unlikely to be the tipping point or focus of much intense activity from Democrats</li>
+</ul>
+</div>
+<div id="section-17" class="section level1">
+<h1> </h1>
+<blockquote>
+<p>Besides Texas, “do you think there are other states that the Democratic Party could be focusing this energy towards?”</p>
+</blockquote>
+<ul>
+<li>Offense:
+<ul>
+<li>Arizona and especially Georgia are much more likely to flip than Texas</li>
+</ul></li>
+<li>Toss-up:
+<ul>
+<li>And the 2020 election looks like it very well could be very close, so they should obviously focus resources on Wisconsin, Pennsylvania and Michigan</li>
+</ul></li>
+<li>Defense:
+<ul>
+<li>New Hampshire, the forgotten swing state</li>
+</ul></li>
+<li>??
+<ul>
+<li>Iowa: Hurt by tariffs and unclear where it stands politically; looked more like 2012 voting in 2018 mid-terms and has high Trump disapproval</li>
+</ul></li>
+</ul>
+</div>
+<div id="section-18" class="section level1">
+<h1> </h1>
+<blockquote>
+<p>“Who will win the primary?”</p>
+</blockquote>
+<ul>
+<li>Based on polls, Warren has something like a 30% chance to win. Biden has maybe 25%.</li>
+<li>That leaves a 45% chance that anyone else wins the nomination.</li>
+<li>I wouldn’t bet on anyone individual given those odds. (But if I had to, I’d have to pick Warren)</li>
+</ul>
+</div>
+<div id="section-19" class="section level1">
+<h1> </h1>
+<blockquote>
+<p>“In your article on the urban-rural divide in American politics you allude to both passive demographic change and intentional party realignment as means for the Democratic Party to court rural communities. Do you believe the party will make inroads and if so, which method do you believe will have a greater impact?”</p>
+</blockquote>
+<ul>
+<li>I think you’ve got this backwards (or I misunderstand the question):
+<ul>
+<li>Demographic change in cities—from white labor centers to multi-ethnic immigrant communities—has forced Democrats to embrace diversity or face total electoral annihilation</li>
+</ul></li>
+<li>They are facing some consequences from the geographic nature of US politics because of this</li>
+<li>To stay competitive in the US Senate, the Democrats may soon have to consider new strategies for courting rural voters</li>
+<li>Maybe better farm policy? Job training programs in Middle America?</li>
+<li>Or, again, class-based politics that de-emphasize race without decreasing black turnout</li>
+</ul>
+<hr />
+<p>class: center</p>
+</div>
+<div id="thank-you" class="section level1">
+<h1>Thank you!</h1>
+<p> </p>
+<div id="g.-elliott-morris" class="section level2">
+<h2>G. Elliott Morris</h2>
+<div id="data-journalist-the-economist" class="section level3">
+<h3>Data journalist, <em>The Economist</em></h3>
+<p><strong>Website: <a href="https://www.gelliottmorris.com">gelliottmorris.com</a></strong></p>
+<p><strong>Email: <a href="mailto:elliott@thecrosstab.com">elliott@thecrosstab.com</a></strong></p>
+<p><strong>Twitter: <span class="citation">[@gelliottmorris]</span>(<a href="http://www.twitter.com/gelliottmorris" class="uri">http://www.twitter.com/gelliottmorris</a>)</strong></p>
+<hr />
+<p>_These slides were made with the <code>xaringan</code> package for R from Yihui Xie. They are available online at <a href="https://www.thecrosstab.com/slides/2019-10-18-gw/_" class="uri">https://www.thecrosstab.com/slides/2019-10-18-gw/_</a></p>
+</div>
+</div>
+</div>
