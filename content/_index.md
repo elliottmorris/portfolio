@@ -84,4 +84,4 @@ _[Find more code on my blog](https://www.thecrosstab.com/project/)_
 ## Contact
 ---
 
-Want to get in touch? My email address is elliott (AT) thecrosstab (DOT) com.
+Want to get in touch? My email address is elliott(AT)gelliottmorris.com.
