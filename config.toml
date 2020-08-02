@@ -26,7 +26,7 @@ theme = "pristine"
 [[params.social]]
     title = "Blog"
     icon = ""
-    url = "https://www.thecrosstab.com"
+    url = "thecrosstab.substack.com"
 
 [[params.social]]
     title = ""
