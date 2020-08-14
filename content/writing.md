@@ -14,6 +14,10 @@ _(This page excludes all of my [newsletter writing](https://thecrosstab.substack
 
 In 2020, _The Economist_ started a newsletter devoted to American politics for which I wrote a data-driven article each week. https://www.economist.com/checksandbalance/ 
 
+https://www.economist.com/united-states/2020/08/15/americas-decennial-census-and-covid-19
+
+https://www.economist.com/graphic-detail/2020/08/15/how-americas-electoral-college-favours-white-voters
+
 https://www.economist.com/graphic-detail/2020/08/10/joe-bidens-vice-presidential-pick-is-unlikely-to-sway-very-many-voters
 
 https://www.economist.com/united-states/2020/08/08/americans-should-worry-less-about-foreigners-and-voter-fraud
