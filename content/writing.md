@@ -14,6 +14,8 @@ _(This page excludes all of my [newsletter writing](https://thecrosstab.substack
 
 In 2020, _The Economist_ started a newsletter devoted to American politics for which I wrote a data-driven article each week. https://www.economist.com/checksandbalance/ 
 
+https://www.economist.com/graphic-detail/2020/08/26/the-republican-convention-is-unlikely-to-save-donald-trump
+
 https://www.economist.com/united-states/2020/08/22/more-mail-in-voting-doubles-the-chances-of-recounts-in-close-states
 
 https://www.economist.com/graphic-detail/2020/08/18/how-donald-trump-polarised-postal-voting
