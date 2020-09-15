@@ -12,7 +12,9 @@ _(This page excludes all of my [newsletter writing](https://thecrosstab.substack
 
 ## 2020
 
-In 2020, _The Economist_ started a newsletter devoted to American politics for which I wrote a data-driven article each week. https://www.economist.com/checksandbalance/ 
+In addition to the articles below, I wrote a weekly data-driven piece on electoral politics for _The Economist's_ "[Checks and Balance](https://www.economist.com/checksandbalance/)" newsletter on US politics throughout the 2020 election cycle. Sadly, archives are not available. 
+
+https://www.economist.com/united-states/2020/09/12/donald-trump-could-still-stage-a-comeback-again
 
 https://www.economist.com/united-states/2020/09/03/how-much-do-polls-move-after-labor-day
 
