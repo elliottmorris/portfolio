@@ -14,6 +14,8 @@ _(This page excludes all of the blogging I do at my [personal newsletter](https:
 
 In addition to the articles below, I wrote a weekly data-driven piece on electoral politics for _The Economist's_ "[Checks and Balance](https://www.economist.com/checksandbalance/)" newsletter on US politics throughout the 2020 election cycle. Sadly, archives are not available. 
 
+https://www.economist.com/graphic-detail/2020/09/16/why-donald-trump-is-losing-support-from-whites-without-college-degrees
+
 https://www.economist.com/united-states/2020/09/12/donald-trump-could-still-stage-a-comeback-again
 
 https://www.economist.com/united-states/2020/09/03/how-much-do-polls-move-after-labor-day
