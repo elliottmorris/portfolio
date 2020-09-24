@@ -15,7 +15,7 @@ output:
 ---
 
 ```{r include=F}
-# NOTE: EXPORT TO PDF WITH pagedown::chrome_print("slides.Rmd")
+# NOTE: EXPORT TO PDF WITH pagedown::chrome_print("index.Rmd")
 
 library(tidyverse)
 library(knitr)
