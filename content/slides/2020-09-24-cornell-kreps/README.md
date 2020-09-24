@@ -1,0 +1,1 @@
+Prepared for a guest lecture at Cornell Univeristy on September 24th, 2020. Sarah Kreps's international relations class.
