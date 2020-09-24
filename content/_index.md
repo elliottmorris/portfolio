@@ -72,7 +72,7 @@ _[Find more code on my blog](https://www.thecrosstab.com/project/)_
 ## News
 ---
 
-* September 24 2020: I am giving a talk about what election forecasts teach us about political behavior, election polls and our electoral institutions at Cornell University. [Slides](https://www.gelliottmorris.com/slides/2020-09-24-cornell-kreps/#1)
+* September 24, 2020: I am giving a talk about what election forecasts teach us about political behavior, election polls and our electoral institutions at Cornell University. [Slides](https://www.gelliottmorris.com/slides/2020-09-24-cornell-kreps/#1)
 * October 18, 2019: I will be speaking at The George Washington University on data journalism, political analysis and election forecasting. [Slides](https://www.gelliottmorris.com/slides/2019-10-18-gw/#1)
 * September 30, 2019: I will be speaking at The University of Texas at Austin about my work for _The Economist_ on what would happen in Americans elections if everyone turned out to vote. [Slides](https://www.gelliottmorris.com/slides/2019-09-30-utaustin/#1)
 * August 30, 2019: I am presenting at the annual meeting of the American Political Science Association on best practices in forecasting elections. [Slides](https://www.gelliottmorris.com/slides/2019-08-30-apsa/#1)
