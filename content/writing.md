@@ -14,9 +14,9 @@ _(This page excludes all of the blogging I do at my [personal newsletter](https:
 
 In addition to the articles below, I wrote a weekly data-driven piece on electoral politics for _The Economist's_ "[Checks and Balance](https://www.economist.com/checksandbalance/)" newsletter on US politics throughout the 2020 election cycle. Sadly, archives are not available. 
 
-https://www.economist.com/united-states/2020/09/28/american-presidential-debates-rarely-change-election-outcomes
-
 https://www.economist.com/graphic-detail/2020/09/30/donald-trump-did-himself-no-favours-in-the-first-presidential-debate
+
+https://www.economist.com/united-states/2020/09/28/american-presidential-debates-rarely-change-election-outcomes
 
 https://www.economist.com/united-states/2020/09/24/democrats-are-doing-less-badly-among-rural-voters
 
@@ -60,9 +60,9 @@ https://www.economist.com/graphic-detail/2020/05/15/the-coronavirus-may-have-pea
 
 https://www.economist.com/united-states/2020/05/02/we-spent-the-lockdown-sorting-american-voters-into-380000-distinct-groups
 
-https://www.economist.com/graphic-detail/2020/04/24/many-poor-americans-cant-afford-to-isolate-themselves
-
 https://www.economist.com/graphic-detail/2020/04/25/the-south-is-likely-to-have-americas-highest-death-rate-from-covid-19
+
+https://www.economist.com/graphic-detail/2020/04/24/many-poor-americans-cant-afford-to-isolate-themselves
 
 https://www.economist.com/graphic-detail/2020/04/15/americans-are-not-rallying-around-donald-trump-during-the-pandemic
 
@@ -70,9 +70,9 @@ https://www.economist.com/graphic-detail/2020/04/02/american-states-responses-to
 
 https://www.economist.com/united-states/2020/03/19/joe-biden-builds-an-insurmountable-lead
 
-https://www.economist.com/graphic-detail/2020/03/11/in-america-even-pandemics-are-political
-
 https://www.economist.com/united-states/2020/03/12/working-class-whites-deserted-bernie-sanders-in-the-midwest
+
+https://www.economist.com/graphic-detail/2020/03/11/in-america-even-pandemics-are-political
 
 https://www.economist.com/graphic-detail/2020/03/03/political-bettors-pick-joe-biden-as-the-democrat-best-able-to-beat-donald-trump
 
