@@ -1,0 +1,173 @@
+---
+title: "What can we learn from election forecasting?"
+#subtitle: "Hypothesis testing, causal inference and good ol' fashioned social science"
+footnote: "Guest lecture on 2020-09-23 for Sarah Kreps, Cornell University"
+author: "**G. Elliott Morris** <br />Data journalist <br />_The Economist_"
+date: "September 24, 2020"
+output:
+  xaringan::moon_reader:
+    css: [robot, "my-css.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+
+```{r include=F}
+# NOTE: EXPORT TO HTML WITH: pressing the knit button
+# NOTE: EXPORT TO PDF WITH pagedown::chrome_print("index.Rmd")
+
+library(knitr)
+
+knitr::opts_chunk$set(echo=F,warning=F,message=F,
+                      eval = TRUE)
+
+```
+
+# Personal info (to break up zoom awkwardness):
+
+
+- I graduated from the University of Texas at Austin (Hook’em!) in 2018 (so I’m not that much older than y’all)
+- I studied government and history with computer science and statistics on the side (AKA you never know what you might end up doing with your education)
+- I live in Washington, DC with my fiance and two cats (bacon and pancake)
+- I’m a data journalist for The Economist
+  - I’ve worked on all sorts of projects and pieces
+  - But my expertise is in public opinion polling and election forecasting
+- Aside from my work at The Economist I also interned with the Pew Research Center on their survey methods team
+
+
+---
+
+class: center, inverse
+
+# &nbsp;
+# &nbsp;
+# Let's talk forecasting
+
+
+---
+
+![](figures/forecast_sept_23.png)
+
+
+---
+
+# What we learn from building election forecasts
+
+Primarily useful as tools for handicapping the horse race
+
+But also let us test theories about voter behavior and the forces guiding out politics:
+- The role of economics in shaping presidential evaluations
+- The extent to which presidential approval shapes future evaluations of the incumbent party (IE over the course of the election year)
+- Whether non-incumbent parties are treated differently (they are)
+
+And they enable us to test hypothesis about the accuracy of different polling methods
+- Polls provide regular benchmarks against methodological choices
+- Such as sampling procedures, weighting modes, etc
+
+And about structural factors
+- Is the electoral college biased toward Republicans? White voters? 
+- By how much?
+
+
+---
+
+# The “fundamentals” part 1: economics + incumbency
+
+![](figures/fundamentals.png)
+
+
+---
+
+# The “fundamentals” part 2: approval + incumbency
+
+![](figures/fundamentals.png)
+
+
+---
+
+class: center, inverse
+
+# &nbsp;
+# &nbsp;
+# Break for questions
+
+---
+
+# Polls (and what forecasting teaches us about them)
+
+
+Polls provide regular benchmarks against methodological choices
+
+Poll-level model for aggregating opinions
+- Includes a variable for differences from mode (online/IVR/live phone)
+- Includes a variable for differences from population (likely/registered voters)
+- (Regular departure from the average of polls bias)
+
+Such as weighting variables, etc
+- Time-series model
+  - Creates two averages: one for pollsters who use the correct weighting protocols and one for those that don’t
+  - Pushes the adjusted average for pollsters who don’t weight correctly back toward the other
+
+
+---
+
+class: center, inverse
+
+# &nbsp;
+# &nbsp;
+# Break for questions
+
+---
+
+# Learning from predictions: electoral college bias
+
+![](figures/electoral_college_curve.png)
+
+---
+
+![](figures/electoral_college_map.png)
+
+
+---
+
+![](figures/ec_white_voters.png)
+
+
+---
+
+![](figures/states_turnout.png)
+
+
+---
+
+class: center, inverse
+
+# &nbsp;
+# &nbsp;
+# Q&A time
+
+
+
+---
+
+class: center
+
+# Thank you!
+
+&nbsp;
+
+## G. Elliott Morris
+### Data journalist, _The Economist_
+
+**Website: [gelliottmorris.com](https://www.gelliottmorris.com)**
+
+**Email: [elliott@thecrosstab.com](mailto:elliott@thecrosstab.com)**
+
+**Twitter: [@gelliottmorris](http://www.twitter.com/gelliottmorris)**
+
+--- 
+
+_These slides were made with the `xaringan` package for R from Yihui Xie. They are available online at https://www.gelliottmorris.com/slides/2020-09-24-cornell-kreps/_

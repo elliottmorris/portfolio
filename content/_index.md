@@ -9,7 +9,7 @@ draft: false
 
 ### Bio
 
-**[I am a data journalist](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** at _The Economist_ based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data. I am responsible for many of the paper's election forecasting models, including our [2020](https://projects.economist.com/us-2020-forecast/president) US presidential election forecast.
+I am a data journalist at **[_The Economist_](https://mediadirectory.economist.com/people/g-elliott-morris-2/)** based in Washington, DC. I write mostly about American politics and elections, usually by engaging in a close study of political science, political polling and demographic data. I am responsible for many of the paper's election forecasting models, including our [2020](https://projects.economist.com/us-2020-forecast/president) US presidential election forecast.
 
 I am writing a book for W. W. Norton on public opinion polling &#8212; its history, influence, successes, failures, and future &#8212; and why it is a crucial tool for a healthy democracy. [Sign up for my newsletter](https://thecrosstab.substack.com) to get updates as publication day approaches. *No Margin For Error* is due out in the fall of 2021. You can read a short blog post about the project [here](https://thecrosstab.substack.com/p/im-writing-a-book-about-polls-and).
 
@@ -20,11 +20,11 @@ I also post a lot on Twitter: <a href="https://twitter.com/gelliottmorris?ref_sr
 
 ### Background
 
-The work I am perhaps best known for is my election forecasts, which have enjoyed varied success since I began blogging about political statistics in 2015. These days, I am interested in how we can improve over the popular aggregation-based election forecasting methods by incorporating raw polling micro-data into our models. Such an approach can make crucial improvements in state-level polling, decreasing the biases in our national probabilistic estimates and producing more reliable day-to-day forecasts.
+The work I am perhaps best known for is my election forecasts, which have enjoyed varied success since I began blogging about political statistics as a college student in 2015. These days, I am interested in how we can improve over the popular aggregation-based election forecasting methods by incorporating raw polling micro-data into our models. Such an approach can make crucial improvements in state-level estimates, decreasing the biases in our national probabilistic estimates and producing more reliable day-to-day forecasts. Such methods also allow us to dive deeper into the attitudes of different demographic groups than the traditional methods, a key journalistic advantage.
 
-I received my undergraduate degrees in government and history from The University of Texas at Austin in 2018. As part of my coursework I also studied statistics and computer science. I used to intern at the Pew Research Center and briefly produced statistical models for the election returns startup Decision Desk HQ.
+I received my undergraduate degrees in government and history from The University of Texas at Austin in 2018. As part of my coursework I also studied statistics and computer science. I used to intern at the Pew Research Center and briefly produced statistical models for the election returns startup Decision Desk HQ. I joined _The Economist_ in February of 2018 while finishing my degree.
 
-Broadly speaking, I am motivated by an interest to better understand the world using computational social science and predictive analytics. I also have a firmly-held belief in the power of political polling to improve democracy. _Got any leads? Drop me a line!_ 
+Broadly speaking, I am motivated by an interest to better understand the world using computational social science, public opinion surveys and predictive analytics. I also have a firmly-held belief in the power of political polling to improve democratic outcomes.
 
 <br>
 
