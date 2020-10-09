@@ -1,149 +1,226 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>What can we learn from election forecasting?</title>
+    <title>Statistical Models of Presidential Elections</title>
     <meta charset="utf-8" />
     <meta name="author" content="G. Elliott Morris  Data journalist  The Economist" />
-    <meta name="date" content="2020-09-24" />
     <script src="libs/header-attrs-2.4/header-attrs.js"></script>
-    <link href="libs/remark-css-0.0.1/robot.css" rel="stylesheet" />
+    <link rel="stylesheet" href="custom-xaringan-theme.css" type="text/css" />
     <link rel="stylesheet" href="my-css.css" type="text/css" />
   </head>
   <body>
     <textarea id="source">
-class: center, middle, inverse, title-slide
+class: left, top, title-slide
 
-# What can we learn from election forecasting?
-### <strong>G. Elliott Morris</strong> <br />Data journalist <br /><em>The Economist</em>
-### September 24, 2020
-
----
-
-
-
-
-# Personal info (to break up zoom awkwardness):
-
-
-- I graduated from the University of Texas at Austin (Hook’em!) in 2018 (so I’m not that much older than y’all)
-- I studied government and history with computer science and statistics on the side (AKA you never know what you might end up doing with your education)
-- I live in Washington, DC with my fiance and two cats (bacon and pancake)
-- I’m a data journalist for The Economist
-  - I’ve worked on all sorts of projects and pieces
-  - But my expertise is in public opinion polling and election forecasting
-- Aside from my work at The Economist I also interned with the Pew Research Center on their survey methods team
-
+# Statistical Models of Presidential Elections
+## Bayesian inference using polls and the fundamentals
+### <strong>G. Elliott Morri</strong>s <br />Data journalist <br /><em>The Economist</em>
+### &lt;class=‘date’&gt;October 9, 2020 <br> Prepared for a talk at the IU-Bloomington Workshop on Methods</class>
 
 ---
 
-class: center, inverse
 
-# &amp;nbsp;
-# &amp;nbsp;
-# Let's talk forecasting
+
+ 
+
+# 2020 presidential election forecast*
+
+&lt;br&gt;
+
+&lt;img src="figures/economist_forecast_headline.png" width="100%" /&gt;
+
+&lt;br&gt;
+
+_*as of October 8 at 7:05 PM_
 
 
 ---
 
-![](figures/forecast_sept_23.png)
+# Our model
+
+### 1. National economic + political fundamentals
+
+### 2. Decompose into state-level priors
+
+### 3. Polls
+
+Uncertainty is propogated throughout the models, incorporated via MCMC sampling in step 3.
+
+
+---
+class: center, inverse, middle
+
+# National Fundamentals
 
 
 ---
 
-# What we learn from building election forecasts
+# What fundamentals?
 
-Primarily useful as tools for handicapping the horse race
+#### i) Index of economic growth (1940 - 2016)
+- eight different variables, scaled to measure the standard-deviation from average annual growth
 
-But also let us test theories about voter behavior and the forces guiding out politics:
-- The role of economics in shaping presidential evaluations
-- The extent to which presidential approval shapes future evaluations of the incumbent party (IE over the course of the election year)
-- Whether non-incumbent parties are treated differently (they are)
+#### ii) Presidential approval (1948 - 2016)
 
-And they enable us to test hypothesis about the accuracy of different polling methods
-- Polls provide regular benchmarks against methodological choices
-- Such as sampling procedures, weighting modes, etc
+#### iii) Polarization (1948 - 2016)
+- measured as the share of swing voters in the electorate, per the ANES --- and interacted with economic growth
 
-And about structural factors
-- Is the electoral college biased toward Republicans? White voters? 
-- By how much?
+#### iv) Whether an incumbent is on the ballot
 
 
 ---
 
-# The “fundamentals” part 1: economics + incumbency
+&lt;img src="figures/fundamentals_economy.png" width="80%" /&gt;
 
-![](figures/fundamentals.png)
+---
+
+&lt;img src="figures/fundamental_approval.png" width="80%" /&gt;
 
 
 ---
 
-# The “fundamentals” part 2: approval + incumbency
-
-![](figures/fundamentals.png)
+&lt;img src="figures/fundamentals_with_incumbency.png" width="100%" /&gt;
 
 
 ---
 
-class: center, inverse
+# National fundamentals
 
-# &amp;nbsp;
-# &amp;nbsp;
-# Break for questions
+### Model formula:
+
+vote ~ incumbent_running:economic growth:polarization + approval
+
+### Training
+
+Model trained on 1948-2016 using elastic net regression with leave-one-out cross-validation
+
+&lt;img src="figures/train-validate-test.png" width="90%" /&gt;
+
+RMSE = 2.6 percentage points on two-party Democratic vote share
+
 
 ---
+class: center, inverse, middle
 
-# Polls (and what forecasting teaches us about them)
-
-
-Polls provide regular benchmarks against methodological choices
-
-Poll-level model for aggregating opinions
-- Includes a variable for differences from mode (online/IVR/live phone)
-- Includes a variable for differences from population (likely/registered voters)
-- (Regular departure from the average of polls bias)
-
-Such as weighting variables, etc
-- Time-series model
-  - Creates two averages: one for pollsters who use the correct weighting protocols and one for those that don’t
-  - Pushes the adjusted average for pollsters who don’t weight correctly back toward the other
+# State-level prior
 
 
 ---
 
-class: center, inverse
+# State-level prior
 
-# &amp;nbsp;
-# &amp;nbsp;
-# Break for questions
 
----
+#### i) Train a model to predict the Democratic share of the vote in a state relative to the national vote, 1948-2016
+* Variables are: lean in the last election, lean two elections ago, home state effects * state size, conditional on the national vote in the state
 
-# Learning from predictions: electoral college bias
+#### ii) Use the covariates to make predictions for 2020, _conditional on the national fundamentals prediction for every day_
 
-![](figures/electoral_college_curve.png)
+#### ii) Simulate state-level outcomes to extract a mean and standard deviation
+* Propogates uncertainty both from the LOOCV RMSE of the national model and the state-level model
 
----
-
-![](figures/electoral_college_map.png)
 
 
 ---
+class: center, inverse, middle
 
-![](figures/ec_white_voters.png)
+# Pooling the polls
 
-
----
-
-![](figures/states_turnout.png)
 
 
 ---
 
-class: center, inverse
+# It's just a trend through points...
 
-# &amp;nbsp;
-# &amp;nbsp;
-# Q&amp;A time
+
+&lt;img src="figures/state_space_model.png" width="90%" /&gt;
+
+
+
+---
+
+# (...but with some fancy extra stuff)
+
+```
+mu_b[:,T] = cholesky_ss_cov_mu_b_T * raw_mu_b_T + mu_b_prior;  
+for (i in 1:(T-1)) mu_b[:, T - i] = cholesky_ss_cov_mu_b_walk * raw_mu_b[:, T - i] + mu_b[:, T + 1 - i];
+national_mu_b_average = transpose(mu_b) * state_weights;
+mu_c = raw_mu_c * sigma_c;
+mu_m = raw_mu_m * sigma_m;
+mu_pop = raw_mu_pop * sigma_pop;
+e_bias[1] = raw_e_bias[1] * sigma_e_bias;
+sigma_rho = sqrt(1-square(rho_e_bias)) * sigma_e_bias;
+for (t in 2:T) e_bias[t] = mu_e_bias + rho_e_bias * (e_bias[t - 1] - mu_e_bias) + raw_e_bias[t] * sigma_rho;
+//*** fill pi_democrat
+for (i in 1:N_state_polls){
+  logit_pi_democrat_state[i] = 
+    mu_b[state[i], day_state[i]] + 
+    mu_c[poll_state[i]] + 
+    mu_m[poll_mode_state[i]] + 
+    mu_pop[poll_pop_state[i]] + 
+    unadjusted_state[i] * e_bias[day_state[i]] +
+    raw_measure_noise_state[i] * sigma_measure_noise_state + 
+    polling_bias[state[i]];
+}
+
+```
+
+
+
+---
+
+# Poll-level model
+
+--
+
+#### i. Latent state-level vote shares evolve as a random walk over time
+* Pooling toward the state-level fundamentals more as we are further out from election day
+
+
+--
+
+#### ii. Polls are observations with measurement error that are debiased on the basis of:
+* Pollster firm (so-called "house effects")
+* Poll mode
+* Poll population
+
+--
+
+#### iii. Correcting for partisan non-response
+* Whether a pollster weights by party registration or past vote
+* Incorporated as a residual AR process
+
+
+
+---
+class: center, inverse, middle
+
+# Tying it all together
+
+
+---
+
+# Tying it all together
+
+## 1. 2016 election-day forecast:
+
+&lt;img src="figures/trends_2016.png" width="80%" /&gt;
+
+
+---
+
+# Tying it all together
+
+## 2. 2020 forecast*:
+
+&lt;img src="figures/trends_2020.png" width="80%" /&gt;
+
+_*As of October 9th, 2020_
+
+
+---
+class: center, inverse, middle
+
+# Q&amp;A 
 
 
 
@@ -153,20 +230,25 @@ class: center
 
 # Thank you!
 
-&amp;nbsp;
+&lt;br&gt;
+&lt;br&gt;
 
-## G. Elliott Morris
-### Data journalist, _The Economist_
+#### Website: [gelliottmorris.com](https://www.gelliottmorris.com)
 
-**Website: [gelliottmorris.com](https://www.gelliottmorris.com)**
+#### Email: [elliott@thecrosstab.com](mailto:elliott@thecrosstab.com)
 
-**Email: [elliott@thecrosstab.com](mailto:elliott@thecrosstab.com)**
+#### Twitter: [@gelliottmorris](http://www.twitter.com/gelliottmorris)
 
-**Twitter: [@gelliottmorris](http://www.twitter.com/gelliottmorris)**
+&lt;br&gt;
+&lt;br&gt;
 
---- 
+&lt;hr&gt;
 
-_These slides were made with the `xaringan` package for R from Yihui Xie. They are available online at https://www.gelliottmorris.com/slides/2020-09-24-cornell-kreps/_
+
+
+_These slides were made with the `xaringan` package for R from Yihui Xie. They are available online at https://www.gelliottmorris.com/slides/2020-10-09-indiana-bloomington-methods-workshop/_
+
+
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
