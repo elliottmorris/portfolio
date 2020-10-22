@@ -14,6 +14,10 @@ _(This page excludes all of the blogging I do at my [personal newsletter](https:
 
 In addition to the articles below, I wrote a weekly data-driven piece on electoral politics for _The Economist's_ "[Checks and Balance](https://www.economist.com/checksandbalance/)" newsletter on US politics throughout the 2020 election cycle. Sadly, archives are not available. 
 
+https://www.economist.com/graphic-detail/2020/10/24/postal-voting-could-put-americas-democrats-at-a-disadvantage
+
+https://www.economist.com/graphic-detail/2020/10/22/will-donald-trump-pull-off-another-last-minute-upset
+
 https://www.economist.com/united-states/2020/10/16/joe-biden-could-get-a-boost-from-undecided-voters
 
 https://www.economist.com/graphic-detail/2020/10/12/amy-coney-barrett-is-the-least-popular-supreme-court-nominee-in-recent-history
