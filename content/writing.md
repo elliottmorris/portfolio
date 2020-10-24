@@ -14,6 +14,8 @@ _(This page excludes all of the blogging I do at my [personal newsletter](https:
 
 In addition to the articles below, I wrote a weekly data-driven piece on electoral politics for _The Economist's_ "[Checks and Balance](https://www.economist.com/checksandbalance/)" newsletter on US politics throughout the 2020 election cycle. Sadly, archives are not available. 
 
+https://www.economist.com/united-states/2020/10/23/facing-a-rout-donald-trump-has-no-time-left-to-turn-things-around
+
 https://www.economist.com/united-states/2020/10/24/if-donald-trump-were-to-win-re-election-how-would-he-do-it
 
 https://www.economist.com/graphic-detail/2020/10/24/postal-voting-could-put-americas-democrats-at-a-disadvantage
