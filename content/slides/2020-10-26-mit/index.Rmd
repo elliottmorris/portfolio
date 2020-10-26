@@ -369,6 +369,6 @@ class: center
 
 
 
-_These slides were made with the `xaringan` package for R from Yihui Xie. They are available online at https://www.gelliottmorris.com/slides/2020-10-23-mit/_
+_These slides were made with the `xaringan` package for R from Yihui Xie. They are available online at https://www.gelliottmorris.com/slides/2020-10-26-mit/_
 
 
