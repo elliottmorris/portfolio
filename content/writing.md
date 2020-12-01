@@ -4,9 +4,7 @@ date: 2018-06-06T03:00:53+06:00
 draft: false
 ---
 
-My published writing, in reverse-chronological order. 
-
-_(This page excludes all of the blogging I do at my [personal newsletter](https://thecrosstab.substack.com/archive/), which amounts to roughly two posts on politics, data and the news each week.)_
+See below for my published writing, in reverse-chronological order. Note that I have excluded from this page all the blogging I do at my [personal newsletter](https://thecrosstab.substack.com/archive/), which amounts to roughly two posts on polling, data, and the news each week.
 
 <br>
 
